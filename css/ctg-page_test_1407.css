@@ -130,19 +130,19 @@ img.c_m_bnr{width:100%;height:200px;}
 .c_rltv_img{width:100%;height:152px;}
 .c_t-pd_name-a:hover,.c_pd-n_i-a:hover .c_pd-n_name,.c_atcl_i-a:hover .c_atcl_name,.c_pd_push-a:hover .c_pd-push_name,.c_pd_name-a:hover,.c_rltv_i-a:hover .c_rltv_name{color:#0f66c0;}
 .filter-box, .watching-box, .more-yasu-box, .side-ad_col .side-ad, #google_ads_div_ezprice-side-160x600_ad_container {
-	border-color: #ddd;
+	border-color: #656c7d;
 }
 #google_ads_div_ezprice-side-160x600_ad_container {
 	padding: 8px 29px;
 }
 .filter-box {
-	background: #f9f9f9;
+	/* background: #f9f9f9; */
 }
 .f-title {
-	background: #E7E7E7;
-	color: #333;
+	background: #656c7d;
+	color: rgba(251,251,251,1);
 	font-weight: 900;
-	border-top-color: #f9f9f9;
+	/* border-top-color: #f9f9f9; */
 	font-size: 20px;
 }
 .filter-box .ctg.this a {
