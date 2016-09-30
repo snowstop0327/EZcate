@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+
+#Bubblebox{
+	background-image: url(http://ezprice.com.tw/images/bobo_bg.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	height: 160px;
+	width: 307px;
+	position:absolute;
+	top:30px;
+}
+.Bubble_bd{
+	padding-top: 70px;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+.Bubble_msg{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 15px;
+	line-height: 18px;
+	color: #FFF;
+	padding-bottom: 5px;
+}
+.Bubble_btnbox{
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+a.Bubble_btn{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	line-height: 15px;
+	color: #FFF;
+	text-decoration: none;
+	background-color: #8d503b;
+	text-align: center;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	border: 1px solid #782c1a;
+}
+#pricebar_bubble{
+	background-image: url(http://ezprice.com.tw/images/Bubble_bar.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 110px;
+	width: 200px;
+	position:absolute;
+	display:none;
+}
+.pricebar_b_close{
+	height: 23px;
+	width: 23px;
+	padding-top: 21px;
+	padding-left: 172px;
+}
