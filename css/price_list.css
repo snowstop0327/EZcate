@@ -542,6 +542,10 @@ li.sort-item.this {
     font-size: 16px;
 }
 
+.filter-box .ctg a:hover, .filter-box .ctg a:active {
+    text-decoration: none;
+}
+
 .filter-box .ctg-b a:hover, .filter-box .ctg a:active {
     text-decoration: none;
     background: #ff8400;

@@ -1,11 +1,12 @@
 /*vj_7-140708,vj_6-140528,vj_5-140527,vj_4-140512,vj_3-140502,vj_2-140422,vj_1-140417*/
 .c_bnr,.c_t-ctg,.c_t-pd,.c_atcl,.c_pd-now,.c_pd-push,.c_cmt,.c_brand,.c_rltv,.c_kws{margin-bottom:20px;}
-.c_pd{margin-bottom:60px;}
+.c_pd{margin-bottom:60px;padding-bottom: 50px;border: 1px solid rgb(221, 221, 221);}
 .c_t-ctg_ttl,.c_t-pd_ttl,.c_atcl_ttl,.c_pd-n_ttl,.c_pd-push_ttl,.c_brand_ttl,.c_cmt_ttl,.c_kws_ttl,.c_pd_ttl,.c_rltv_ttl{display:block;position:relative;padding:2px 10px 0;background:#eee;line-height:36px;font-size:16px;font-weight:bolder;color:#000;border-bottom: 1px solid #ddd;}
 .c_t-ctg_l,.c_t-pd_l,.c_atcl_l,.c_atcl_imgs,.c_atcl_info,.c_pd-n_l,.c_pd-push_l,.c_brand_pc,.c_pd_l{padding: 20px;}
 .c_t-ctg_l:after,.c_t-pd_l:after,.c_atcl_l:after,.c_atcl_imgs:after,.c_atcl_info:after,.c_brand_pc:after,.c_pd_l:after,.c_rltv_l:after{content:'';display:block;clear:both;}
 .c_t-pd_l-t,.c_atcl_more,.c_pd-n_l-t,.c_kws_more{float:right;color:#a4a09c;margin-top:11px;font-size:12px;line-height:1.2em;font-weight:normal;}
-.em-clr{color:#ff6706;}
+h2.em-clr {color: rgba(251,251,251,1);font-size: 18px;}
+span.em-clr {color: #ff6706;}
 .c_bnr{width:100%;height:200px;position:relative;overflow:hidden;}
 .c_bnr_l{width:100%;height:200px;position:absolute;left:0;transition:left 1s ease;font-size:0;white-space:nowrap;}
 .c_bnr_i{display:inline-block;}
@@ -19,8 +20,8 @@ img.c_m_bnr{width:100%;height:200px;}
 .c_t-ctg_img{width:100%;height:180px;}
 .c_t-ctg_name{position:absolute;text-align:center;height:2em;line-height:2em;background:rgba(0,0,0,.4);color:#fff;width:100%;font-size:13px;bottom:0;transition:all .15s ease;}
 .c_t-ctg_i:hover .c_t-ctg_name{background:rgba(233,91,0,.8);line-height:2.3em;height:2.3em;}
-.c_t-pd_ttl {border: 1px solid #ECDA95;background: #FFF9E3;}
-.c_t-pd_l {position:relative;border: 1px solid #ECDA95;border-top: 0;}
+.c_t-pd_ttl {border: 1px solid #ff8400;background: #ff8400;}
+.c_t-pd_l {position:relative;border: 1px solid #ff8400;border-top: 0;}
 .c_t-pd_i:after{content:'';display:block;clear:both;}
 .c_t-pd_i {position:relative;margin-left: 50%;width: 50%;margin-bottom: 20px;height: 100px;}
 .c_t-pd_i:last-child{margin-bottom:0}
@@ -110,7 +111,7 @@ img.c_m_bnr{width:100%;height:200px;}
 .c_cmt_u-n{font-weight:bolder;margin:0 2px 0 25px;}
 .c_cmt_u-c-more{position:absolute;right:0;bottom:0;background:url(../img/EZ-icons.png) -468px -126px;padding-left:13px;}
 .c_cmt_u-c-more:before{content:'...';}
-.c_pd_sort{margin-top: 10px;background: #eee;font-size:0;color: #7F7F7F;padding: 7px 10px 2px;}
+.c_pd_sort{/* margin-top: 10px; */background: #eee;font-size:0;color: #7F7F7F;padding: 7px 10px 7px;}
 .c_pd_sort a{margin-right: 1px;}
 .c_pd_sort_dsc{font-size:14px;padding-right: 5px;}
 .c_pd_sort_i{font-size:12px;display:inline-block;line-height:2em;padding:0 1em;background:#fff;cursor:pointer;color:#888;}
@@ -119,7 +120,7 @@ img.c_m_bnr{width:100%;height:200px;}
 .c_pd_i{display:block;float:left;width: 21.25%;margin-right: 5%;margin-top:35px;text-align: center;}
 .c_pd_i:nth-child(1),.c_pd_i:nth-child(2),.c_pd_i:nth-child(3),.c_pd_i:nth-child(4){margin-top: 0;}
 .c_pd_i:nth-child(4n){margin-right:0;}
-.c_pd_img{width: 100%;}
+.c_pd_img{width: 100%;max-width: 150px;}
 .c_pd_name,.c_rltv_name{display:block;line-height:1.5em;height:3em;overflow:hidden;word-break:break-all;color:#222;font-size: 13px;}
 .c_pd_name-a:link,.c_pd_name-a:visited,.c_rltv_name-a:link,.c_rltv_name-a:visited{color:#222;}
 .c_pd_price,.c_rltv_price{display:block;color:#e53331;font-weight:bolder;line-height: 28px;padding-bottom:3px;text-align: center;font-size: 15px;}
@@ -132,6 +133,8 @@ img.c_m_bnr{width:100%;height:200px;}
 .filter-box, .watching-box, .more-yasu-box, .side-ad_col .side-ad, #google_ads_div_ezprice-side-160x600_ad_container {
 	border-color: #656c7d;
 }
+.side-ad_col .side-ad {border:none;}
+.watching-box {border: 1px solid #d6d6d6;}
 #google_ads_div_ezprice-side-160x600_ad_container {
 	padding: 8px 29px;
 }
@@ -149,8 +152,12 @@ img.c_m_bnr{width:100%;height:200px;}
 	background: #FFF2C1;
 }
 .c_pd_ttl {
-	border: 1px solid #ECDA95;
-	background: #FFF9E3;
+	border: 1px solid #dddddd;
+	background: #ddd;
+}
+.c_pd_ttl h1 {
+	color: #393f4e;
+	font-size: 18px;
 }
 li.c_pd_i > a:hover + .c_pd_info .btn_goto {
     background-color: #ff8f00;
