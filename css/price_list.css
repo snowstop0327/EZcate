@@ -515,14 +515,14 @@ li.sort-item.this {
     position: relative;
     background: #f4f4f4;
     font-size: 15px;
-    line-height: 29px;
+    line-height: 23px;
     padding: 5px 9px;
-    /* border-top:1px solid #fff; */
-    /* border-bottom:1px solid #ddd; */
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #ddd;
     color: #333;
     border-top-left-radius: 2px;
     border-top-right-radius: 2px;
-    z-index: 10;
+    z-index: 10
 }
 
 .f-title strong {
@@ -538,18 +538,12 @@ li.sort-item.this {
     color: #333;
     display: block;
     padding: 4px 0;
-    padding-left: 14px;
-    font-size: 16px;
+    padding-left: 4px
 }
 
-.filter-box .ctg a:hover, .filter-box .ctg a:active {
+.filter-box .ctg a:hover,.filter-box .ctg a:active {
     text-decoration: none;
-}
-
-.filter-box .ctg-b a:hover, .filter-box .ctg a:active {
-    text-decoration: none;
-    background: #ff8400;
-    color: #fff!important;
+    background: #eee
 }
 
 .filter-box li.ctg-b ul .ctg a {
@@ -563,26 +557,26 @@ li.sort-item.this {
 
 .f-prev:link,.f-prev:visited {
     display: block;
-    color: #999999;
+    color: #333;
     text-decoration: none;
     padding: 4px;
-    font-size: 12px;
-    margin: 7px 7px 0;
+    font-size: 13px;
+    margin: 7px 7px 0
 }
 
 .f-prev:hover {
-    /* background:#eee */
+    background: #eee
 }
 
 .f-prev:before {
     content: "«";
     font-family: Arial,sans-serif;
-    margin: 0 3px 0 -1px;
+    margin: 0 3px 0 -1px
 }
 
 .filter-box>ul {
-    /* padding:5px 7px; */
-    font-size: 13px;
+    padding: 5px 7px;
+    font-size: 13px
 }
 
 .filter-box .f-prev+ul {
@@ -590,7 +584,7 @@ li.sort-item.this {
 }
 
 .filter-box ul ul {
-    display: block;
+    display: none
 }
 
 .filter-box input[type="checkbox"] {
@@ -605,8 +599,8 @@ li.sort-item.this {
 
 .filter-box input[type="checkbox"]+label {
     position: absolute;
-    right: 10px;
-    top: 8px;
+    left: 0;
+    top: 8px
 }
 
 .filter-box li.ctg-t li.ctg-b input[type="checkbox"]+label {
@@ -617,15 +611,15 @@ li.sort-item.this {
 .filter-box input[type="checkbox"]+label:before {
     content: "+";
     display: block;
-    width: 19px;
-    height: 19px;
+    width: 11px;
+    height: 11px;
     border: 1px solid #d1d1d1;
-    font-size: 17px;
-    line-height: 17px;
+    font-size: 12px;
+    line-height: 9px;
     text-align: center;
     color: #888;
     cursor: default;
-    background: #f4f4f4;
+    background: #f4f4f4
 }
 
 .filter-box input[type="checkbox"]:checked+label:before {
@@ -633,7 +627,7 @@ li.sort-item.this {
 }
 
 .filter-box input[type="checkbox"]:checked+label+span+ul {
-    display: none;
+    display: block
 }
 
 .filter-box>ul>.ctg-b.n-m label:before {
@@ -648,19 +642,17 @@ li.sort-item.this {
 }
 
 .filter-box>ul>li.ctg-t,.filter-box>ul>li.ctg-b {
-    /* padding-bottom:6px; */
-    border-top: 1px solid #ddd;
+    padding-bottom: 6px
 }
 
 .filter-box>ul>li>.ctg {
-    padding: 6px 0 6px 0px;
-    overflow: hidden;
-    background: #ddd;
+    padding: 2px 0 2px 16px;
+    overflow: hidden
 }
 
 .filter-box li.ctg-t li.ctg-b .ctg {
-    /* padding-left:34px; */
-    background: url(../images/price_list/filter-dot.png) 0 -273px no-repeat;
+    padding-left: 34px;
+    background: url(../images/price_list/filter-dot.png) 0 -273px no-repeat
 }
 
 .filter-box li.ctg-t li.ctg-b ul li:last-child .ctg {
@@ -669,18 +661,16 @@ li.sort-item.this {
 
 .filter-box li.ctg-t li.ctg-b>.ctg {
     background: url(../images/price_list/filter-dot.png) 0 -249px no-repeat;
-    /* padding-bottom:2px; */
+    padding-bottom: 2px
 }
 
 .filter-box li.ctg-t li.ctg-b.n-m>.ctg {
     background-position: 0 -273px;
-    /* padding-left:16px; */
-    line-height: 23px;
+    padding-left: 16px
 }
 
 .filter-box li.ctg-t li.ctg-b.n-m>.ctg a {
-    color: #656c7d;
-    font-size: 14px;
+    color: #0f66c0
 }
 
 .filter-box li.ctg-t li.ctg-b input[type="checkbox"]:checked+label+.ctg {
@@ -729,18 +719,6 @@ li.sort-item.this {
 .filter-box li.ctg-t>input[type="checkbox"]:checked+label+.ctg {
     overflow: hidden;
     background: url(../images/price_list/filter-dot.png) 0 3px no-repeat
-}
-
-.filter-box .ctg-g a:hover {
-    text-decoration: none;
-}
-
-.filter-box li.ctg-t li.ctg-b {
-    border-bottom: 1px solid #ddd;
-}
-
-.filter-box li.ctg-t li.ctg-b:last-child {
-    border-bottom: none;
 }
 
 .s-w-i-a {
@@ -1041,11 +1019,11 @@ li.sort-item.this {
 }
 
 .dsc-name.payment:before {
-    content: "ä»˜æ¬¾æ–¹å¼"
+    content: "付款方式"
 }
 
 .dsc-name.delivery:before {
-    content: "é‹é€æ–¹å¼"
+    content: "運送方式"
 }
 
 .srch_c_r .dsc .item {
@@ -1061,35 +1039,35 @@ li.sort-item.this {
 }
 
 .item.i-a-1:before {
-    content: "ä¿¡ç”¨å¡"
+    content: "信用卡"
 }
 
 .item.i-a-2:before {
-    content: "åˆ†æœŸ0åˆ©çŽ‡"
+    content: "分期0利率"
 }
 
 .item.i-a-3:before {
-    content: "è²¨åˆ°ä»˜æ¬¾"
+    content: "貨到付款"
 }
 
 .item.i-a-4:before {
-    content: "ATMè½‰å¸³"
+    content: "ATM轉帳"
 }
 
 .item.i-a-5:before {
-    content: "è¶…å•†ä»˜æ¬¾"
+    content: "超商付款"
 }
 
 .item.i-b-1:before {
-    content: "å®…é…"
+    content: "宅配"
 }
 
 .item.i-b-2:before {
-    content: "è¶…å•†å–è²¨"
+    content: "超商取貨"
 }
 
 .item.i-b-3:before {
-    content: "å¿«é€Ÿåˆ°è²¨"
+    content: "快速到貨"
 }
 
 .srch_c_r .dsc .item:nth-last-child(1) {
@@ -1450,4 +1428,3 @@ li.sort-item.this {
     border-color: transparent;
     color: white;
 }
-

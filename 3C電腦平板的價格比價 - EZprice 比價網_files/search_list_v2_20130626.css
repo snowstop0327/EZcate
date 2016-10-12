@@ -1,0 +1,439 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ==== 商品列表 ==== */
+/*  maintrbox .pdlistbox ul li.srlisbox{}  在frame.css */
+.maintrbox li.srlisbox:hover {
+   background-color: #f3f3f3;
+}
+.maintrbox li.srlisbox .search_liz_L_column{
+	float: left;
+	width: 150px;
+}
+.maintrbox li.srlisbox .search_liz_L_column .search_pdimgbox{
+	overflow: hidden;
+	display: block;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.maintrbox li.srlisbox .search_liz_M_column{
+	float: left;
+	width: 500px;
+	overflow: hidden;
+}
+.maintrbox li.srlisbox .search_liz_M_column .search_pdnamebox{
+	padding-left: 10px;
+}
+.maintrbox li.srlisbox .search_liz_M_column h4{
+	font-size: 15px;
+	font-weight: bold;
+	color: #000000;
+	line-height: 20px;
+	padding-bottom: 5px;
+}
+.maintrbox li.srlisbox .search_liz_M_column h4 a{
+	font-size: 15px;
+	line-height: 20px;
+	font-weight: bold;
+	color: #0000ff;
+	text-decoration: none;
+}
+.maintrbox li.srlisbox .search_liz_M_column h4 a:hover{
+	text-decoration: underline;
+	color: #0000ff;
+}
+.maintrbox li.srlisbox .search_liz_M_column strong{
+	color: #0000ff;
+	font-size: 15px;
+	font-weight: bold;
+}
+.maintrbox li.srlisbox .search_liz_M_column p{
+	font-size: 12px;
+	color: #666666;
+	padding-bottom: 10px;
+}
+
+.maintrbox li.srlisbox .pflogo{
+	height: 24px;
+	width: 75px;
+	overflow: hidden;
+	padding-right: 6px;
+	text-align: center;
+	background-image: url(http://ezprice.com.tw/images/line_ptl.gif);
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+
+.maintrbox li.srlisbox .watch{
+	overflow: hidden;
+	padding-left: 8px;
+	font-size: 12px;
+	color: #818181;
+}
+.maintrbox li.srlisbox .watch img{
+	padding-right: 4px;
+}
+.maintrbox li.srlisbox .want_on{
+	padding-left: 8px;
+	font-size: 12px;
+	color: #818181;
+	width:92px;
+}
+.maintrbox li.srlisbox .want_on a{
+	font-size: 12px;
+	color: #818181;
+	text-decoration:none;
+}
+.maintrbox li.srlisbox .want_on a:hover{
+	text-decoration:none;
+}
+.maintrbox li.srlisbox .want_on img{
+	padding-right: 4px;
+}
+.maintrbox li.srlisbox .want_off{
+	padding-left: 8px;
+	font-size: 12px;
+	color: #666666;
+	text-decoration: underline;
+	width:92px;
+}
+.maintrbox li.srlisbox .want_off a{
+	font-size: 12px;
+	color: #666666;
+	text-decoration: underline;
+}
+.maintrbox li.srlisbox .want_off a:hover{
+	font-size: 12px;
+	color: #e53331;
+}
+.maintrbox li.srlisbox .want_off img{
+	padding-right: 5px;
+}
+.maintrbox li.srlisbox .pdlike{
+	padding-left: 10px;
+}
+
+.maintrbox li.srlisbox .search_liz_R_column{
+	float: right;
+	overflow: hidden;
+	padding-top: 25px;
+}
+.maintrbox li.srlisbox .search_liz_R_column .search_pricebox{
+	padding-right: 10px;
+	float: right;
+	padding-bottom: 10px;
+}
+
+.maintrbox li.srlisbox .search_liz_R_column .search_pricebox strong{
+	font-size: 22px;
+	color: #e53331;
+	font-weight: bold;
+	padding-bottom: 10px;
+	line-height: 20px;
+	display: block;
+	text-align: right;
+}
+.maintrbox li.srlisbox .search_liz_R_column .search_pricebox .search_price {
+	font-size: 22px;
+	color: #e53331;
+	font-weight: bold;
+	text-align: right;
+	padding-bottom: 10px;
+
+}
+.maintrbox li.srlisbox .search_liz_R_column .search_pricebox .search_price span{
+	font-size: 18px;
+	font-weight: bold;
+	color: #656565;
+}
+.maintrbox li.srlisbox .search_liz_R_column .search_pricebox p img{
+	padding-right: 5px;
+}
+
+.maintrbox li.srlisbox .search_liz_R_column .search_pricebox p{
+	font-size: 12px;
+	color: #818181;
+	display: block;
+	text-align: right;
+}
+.maintrbox li.srlisbox .search_liz_R_column .search_pricebox p a{
+	font-size: 12px;
+	color: #818181;
+	text-decoration:none;
+}
+.maintrbox li.srlisbox .search_liz_R_column .search_pricebox p a:hover{
+	text-decoration:underline;
+}
+.maintrbox li.srlisbox .search_liz_R_column .search_btnbox{
+	float: right;
+	width: 180px;
+	padding-right: 10px;
+}
+.maintrbox li.srlisbox .search_liz_R_column .search_btnbox a.detailprice{
+	display: block;
+	height: 28px;
+	width: 87px;
+	background-image: url(http://ezprice.com.tw/images/btn_detailprice.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	text-indent: -9999px;
+	margin-right: 5px;
+	float: left;
+}
+.maintrbox li.srlisbox .search_liz_R_column .search_btnbox a.detailprice_cate{
+	display: block;
+	height: 28px;
+	width: 87px;
+	background-image: url(http://ezprice.com.tw/images/btn_detailprice.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	text-indent: -9999px;
+	margin-right: 5px;
+	float: right;
+}
+.maintrbox li.srlisbox .search_liz_R_column .search_btnbox a.buyit{
+	text-indent: -9999px;
+	display: block;
+	height: 28px;
+	width: 87px;
+	background-image: url(http://ezprice.com.tw/images/btn_buyit.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	float: right;
+}
+
+/* ---- EZ幫你選 ad ---- */
+.maintrbox li.srlisbox_ezselect:hover {
+   background-color: #f3f3f3;
+}
+.maintrbox .pdlistbox ul li.srlisbox_ezselect{
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #dedede;
+	padding: 10px;
+	background-image: url(http://ezprice.com.tw/evt/images/BG_msg.gif);
+	background-repeat: repeat;
+	background-position: left top;
+}
+.maintrbox .pdlistbox ul li.srlisbox_ezselect .ezselectbox{
+	background-color: #FFF;
+	border: 1px solid #dbb989;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	position: relative;
+}
+.maintrbox li.srlisbox_ezselect .search_liz_L_column{
+	float: left;
+	width: 150px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #dddddd;
+}
+.maintrbox li.srlisbox_ezselect .search_liz_L_column .ezselect_tag{
+	display: block;
+	height: 25px;
+	width: 88px;
+	position: absolute;
+	left: -1px;
+	top: -1px;
+	z-index: 100;
+}
+
+.maintrbox li.srlisbox_ezselect .search_liz_L_column .search_pdimgbox{
+	overflow: hidden;
+	display: block;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.maintrbox li.srlisbox_ezselect .search_liz_M_column{
+	float: left;
+	width: 500px;
+	overflow: hidden;
+}
+.maintrbox li.srlisbox_ezselect .search_liz_M_column .search_pdnamebox{
+	padding-left: 10px;
+}
+.maintrbox li.srlisbox_ezselect .search_liz_M_column h4{
+	font-size: 15px;
+	font-weight: bold;
+	color: #000000;
+	line-height: 20px;
+	padding-bottom: 5px;
+}
+.maintrbox li.srlisbox_ezselect .search_liz_M_column h4 a{
+	font-size: 15px;
+	line-height: 20px;
+	font-weight: bold;
+	color: #0000ff;
+	text-decoration: none;
+}
+.maintrbox li.srlisbox_ezselect .search_liz_M_column h4 a:hover{
+	text-decoration: underline;
+	color: #0000ff;
+}
+.maintrbox li.srlisbox_ezselect .search_liz_M_column strong{
+	color: #0000ff;
+	font-size: 15px;
+	font-weight: bold;
+}
+.maintrbox li.srlisbox_ezselect .search_liz_M_column p{
+	font-size: 12px;
+	color: #666666;
+	padding-bottom: 10px;
+}
+
+.maintrbox li.srlisbox_ezselect .pflogo{
+	height: 24px;
+	width: 75px;
+	overflow: hidden;
+	padding-right: 6px;
+	text-align: center;
+	background-image: url(http://ezprice.com.tw/images/line_ptl.gif);
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+
+.maintrbox li.srlisbox_ezselect .watch{
+	overflow: hidden;
+	padding-left: 8px;
+	font-size: 12px;
+	color: #818181;
+}
+.maintrbox li.srlisbox_ezselect .watch img{
+	padding-right: 5px;
+}
+.maintrbox li.srlisbox_ezselect .want_on{
+	padding-left: 8px;
+	font-size: 12px;
+	color: #818181;
+}
+.maintrbox li.srlisbox_ezselect .want_on a{
+	font-size: 12px;
+	color: #818181;
+	text-decoration:none;
+}
+.maintrbox li.srlisbox_ezselect .want_on a:hover{
+	text-decoration:none;
+}
+.maintrbox li.srlisbox_ezselect .want_on img{
+	padding-right: 5px;
+}
+.maintrbox li.srlisbox_ezselect .want_off{
+	padding-left: 8px;
+	font-size: 12px;
+	color: #666666;
+	text-decoration: underline;
+}
+.maintrbox li.srlisbox_ezselect .want_off a{
+	font-size: 12px;
+	color: #666666;
+	text-decoration: underline;
+}
+.maintrbox li.srlisbox_ezselect .want_off a:hover{
+	font-size: 12px;
+	color: #e53331;
+}
+.maintrbox li.srlisbox_ezselect .want_off img{
+	padding-right: 5px;
+}
+.maintrbox li.srlisbox_ezselect .pdlike{
+	padding-left: 10px;
+}
+
+.maintrbox li.srlisbox_ezselect .search_liz_R_column{
+	float: right;
+	overflow: hidden;
+	padding-top: 35px;
+}
+.maintrbox li.srlisbox_ezselect .search_liz_R_column span.adsprovider{
+	position: absolute;
+	display: block;
+	width: 70px;
+	font-size: 12px;
+	color: #949494;
+	height: 18px;
+	right: 0;
+	top: 10px;
+}
+
+.maintrbox li.srlisbox_ezselect .search_liz_R_column .search_pricebox{
+	padding-right: 10px;
+	float: right;
+	padding-bottom: 20px;
+	display: block;
+	text-align: right;
+	font-size: 13px;
+	color: #1e1e1e;
+	height: 20px;
+	line-height: 20px;
+}
+
+.maintrbox li.srlisbox_ezselect .search_liz_R_column .search_pricebox strong{
+	font-size: 22px;
+	color: #e53331;
+	font-weight: bold;
+	padding-bottom: 10px;
+	padding-left: 3px;
+	line-height: 20px;
+}
+
+.maintrbox li.srlisbox_ezselect .search_liz_R_column .search_btnbox{
+	float: right;
+	width: 180px;
+	padding-right: 10px;
+}
+.maintrbox li.srlisbox_ezselect .search_liz_R_column .search_btnbox a.buyit{
+	text-indent: -9999px;
+	display: block;
+	height: 28px;
+	width: 87px;
+	background-image: url(http://ezprice.com.tw/images/btn_buyit.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	float: right;
+}
+
+/* pama 低價通知 */
+.maintrbox li.srlisbox .prznotify{
+	font-size: 12px;
+	color: #791992;
+	width: 78px;
+}
+.maintrbox li.srlisbox .prznotify a{
+	font-size: 12px;
+	color: #791992;
+	text-decoration: none;
+}
+.maintrbox li.srlisbox .prznotify a:hover{
+	color: #791992;
+	text-decoration: underline;
+}
+.maintrbox li.srlisbox .prznotify img{
+	padding-right: 5px;
+	padding-left:10px;
+}
+
+.maintrbox li.srlisbox_ezselect .prznotify{
+	font-size: 12px;
+	color: #791992;
+	width: 78px;
+}
+.maintrbox li.srlisbox_ezselect .prznotify a{
+	font-size: 12px;
+	color: #791992;
+	text-decoration: none;
+}
+.maintrbox li.srlisbox_ezselect .prznotify a:hover{
+	color: #791992;
+	text-decoration: underline;
+}
+.maintrbox li.srlisbox_ezselect .prznotify img{
+	padding-right: 4px;
+	padding-left:8px;
+}
+/**/
+.maintrbox li.yfybox{
+padding-top: 5px;
+}

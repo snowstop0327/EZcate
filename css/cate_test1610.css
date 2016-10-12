@@ -1,0 +1,338 @@
+/* left-top-filter small-cate css */
+
+.f-title,.s-w-ttl,.m-y-ttl,.sideBox_ttl {
+    position: relative;
+    background: #f4f4f4;
+    font-size: 15px;
+    line-height: 29px;
+    padding: 5px 9px;
+    color: #333;
+    border: none;
+    z-index: 10;
+}
+
+.f-title strong {
+    color: #ff6706
+}
+
+.small-cate .ctg a {
+    color: #333;
+    display: block;
+    padding: 4px 0;
+    padding-left: 14px;
+    font-size: 16px;
+}
+
+.small-cate .ctg a:hover, .small-cate .ctg a:active {
+    text-decoration: none;
+    background: none;
+}
+
+.small-cate .ctg-b a:hover, .small-cate .ctg a:active {
+    text-decoration: none;
+    background: #ff8400;
+    color: #fff!important;
+}
+
+.f-prev:link,.f-prev:visited {
+    color: #999999;
+    font-size: 12px;
+    margin: 7px 7px 0;
+}
+
+.f-prev:hover {
+    background: none;
+}
+
+.f-prev:before {
+    margin: 0 3px 0 -1px;
+}
+
+.small-cate >ul {
+    font-size: 13px;
+    padding: 0;
+}
+
+.small-cate ul ul {
+    display: block;
+ }
+
+.small-cate input[type="checkbox"] {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    border: none;
+    padding: 0
+}
+
+.small-cate input[type="checkbox"]+label {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    left: inherit;
+}
+
+.small-cate li.ctg-t li.ctg-b input[type="checkbox"]+label {
+    top: 6px;
+    left: 18px
+}
+
+.small-cate input[type="checkbox"]+label:before {
+    content: "+";
+    display: block;
+    width: 19px;
+    height: 19px;
+    border: 1px solid #d1d1d1;
+    font-size: 17px;
+    line-height: 17px;
+    text-align: center;
+    color: #888;
+    cursor: default;
+    background: #f4f4f4;
+}
+
+.small-cate input[type="checkbox"]:checked+label:before {
+    content: "-"
+}
+
+.small-cate input[type="checkbox"]:checked+label+span+ul {
+    display: none;
+}
+
+.small-cate>ul>.ctg-b.n-m label:before {
+    content: "-";
+    border: none;
+    color: #333;
+    background: transparent;
+    font-size: 18px;
+    height: 13px;
+    line-height: 11px;
+    width: 13px
+}
+
+.small-cate>ul>li.ctg-t,.small-cate>ul>li.ctg-b {
+     padding-bottom:0px; 
+    border-top: 1px solid #ddd;
+}
+
+.small-cate>ul>li>.ctg {
+    padding: 6px 0 6px 0px;
+    overflow: hidden;
+    background: #ddd;
+}
+
+.small-cate li.ctg-t li.ctg-b .ctg {
+    padding-left: 0;
+    background: none;
+}
+
+.small-cate li.ctg-t li.ctg-b>.ctg {
+    padding-bottom: 0;
+}
+
+.small-cate li.ctg-t li.ctg-b.n-m>.ctg {
+    line-height: 23px;
+    padding-left: 0;
+}
+
+.small-cate li.ctg-t li.ctg-b.n-m>.ctg a {
+    color: #656c7d;
+    font-size: 14px;
+}
+
+.small-cate .ctg-g a:hover {
+    text-decoration: none;
+}
+
+.small-cate .ctg-b a:hover, .small-cate .ctg a:active {
+    text-decoration: none;
+    background: #ff8400;
+    color: #fff!important;
+}
+
+.small-cate li.ctg-t li.ctg-b {
+    border-bottom: 1px solid #ddd;
+}
+
+.small-cate li.ctg-t li.ctg-b:last-child {
+    border-bottom: none;
+}
+
+
+
+.c_pd{
+    margin-bottom:60px;
+    padding-bottom: 50px;
+    border: 1px solid rgb(221, 221, 221);
+}
+
+h2.em-clr {
+    color: rgba(251,251,251,1);
+    font-size: 18px;
+}
+
+span.em-clr {
+    color: #ff6706;
+}
+
+.c_pd_sort {
+    margin-top: 0px;
+    background: #eee;
+    font-size:0;
+    color: #7F7F7F;
+    padding: 7px 10px 7px;
+}
+
+.c_t-pd_ttl {
+    border: 1px solid #ff8400;
+    background: #ff8400;
+    border-radius: 4px 4px 0 0;
+}
+
+.c_t-pd_l {
+    position:relative;
+    border: 1px solid #ff8400;
+    border-top: 0;
+}
+
+.c_pd_sort{
+     margin: 0px;
+     background: #eee;
+     font-size:0;
+     color: #7F7F7F;
+     padding: 7px 10px 7px;
+     float: inherit;
+}
+
+.c_pd_img{
+    width: 100%;
+    max-width: 150px;
+}
+
+.small-cate, 
+.watching-box, 
+.more-yasu-box, 
+.side-ad_col .side-ad, 
+#google_ads_div_ezprice-side-160x600_ad_container {
+    border-color: #656c7d;
+}
+.side-ad_col .side-ad {
+    border:none;
+}
+
+.watching-box {
+    border: 1px solid #d6d6d6;
+}
+
+.f-title {
+    background: #656c7d;
+    color: rgba(251,251,251,1);
+    border-top-color: inherit;
+    font-size: 20px;
+    line-height: 29px;
+}
+
+.c_pd_ttl {
+    border: 1px solid #dddddd;
+    background: #ddd;
+}
+
+.c_pd_ttl h1 {
+    color: #393f4e;
+    font-size: 18px;
+}
+
+#google_ads_div_ezprice-side-160x600_ad_container {
+    padding: 8px 29px;
+}
+
+.small-cate {
+    background: none; 
+}
+
+.small-cate .ctg.this a {
+    background: #FFF2C1;
+}
+
+.c_pd_ttl {
+    border: 1px solid #dddddd;
+    background: #ddd;
+}
+
+.c_pd_ttl h1 {
+    color: #393f4e;
+    font-size: 18px;
+}
+
+li.c_pd_i > a:hover + .c_pd_info .btn_goto {
+    background-color: #ff8f00;
+    color: #fff;
+}
+
+.filter-box ul li {
+    /* border-bottom: 1px solid #eee; */
+    /* padding-top: 6px; */
+}
+
+
+/* ctg-page_bigcate */
+
+.filter-box .ctg {
+    line-height: 20px;
+}
+
+.filter-box .ctg a {
+    font-size: 16px;
+}
+
+
+/* small-cate right */
+
+.c_t-pd {
+    /* height: 300px; */
+    overflow: hidden;
+}
+
+.right-banner {
+    margin-bottom: 20px;
+}
+
+/* hot-brand */
+
+ul.hot-brand {
+    height: auto;
+}
+
+ul.hot-brand > li {
+    width: 15%;
+    margin-right:15px;
+    float: left;
+}
+
+ul.hot-brand > li:first-child {
+    margin-left: 5px;
+}
+
+ul.hot-brand > li:last-child {
+    margin-right: 0px;
+}
+
+ul.hot-brand >li img {
+    width: 90%;
+}
+
+ul.hot-brand >li a {
+    display: block;
+    text-align: center;
+}
+
+.hot-brand:before, .hot-brand:after {
+    content: "";
+    display: table;
+}
+
+.hot-brand:before {
+    clear:both;
+}

@@ -1,0 +1,600 @@
+@charset "utf-8";body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset, img{border:0;}
+address, caption, cite, code, dfn, em, strong, th, var{font-style:normal;font-weight:normal;}
+ol, ul{list-style:none;}
+caption, th{text-align:left;}
+q:before, q:after{content:'';}
+abbr, acronym{border:0;}
+body{font-family:Verdana, Arial, Helvetica, sans-serif;font-size:12px;line-height:16px;margin:0px;padding:0px;color:#333;}
+a img{border-top-style:none;border-right-style:none;border-bottom-style:none;border-left-style:none;}
+input, select, textarea{font-family:Verdana, Arial, Helvetica, sans-serif;}
+p{margin:0;!important
+*margin-bottom:0px;*padding-top:0px;}
+.clear{clear:both;}
+#topnavbox{width:100%;background-image:url(https://ezprice.com.tw/images/BG_topnav.gif);background-repeat:repeat-x;background-position:left top;height:30px;}
+.topnav{width:1050px;height:30px;margin:0px auto;padding:0px;}
+.topnav .tp_Lcolumn{float:left;height:30px;width:500px;padding-left:40px;}
+.topnav .tp_Rcolumn{float:right;font-size:12px;color:#3e3e3e;font-family:Verdana, Arial, Helvetica, sans-serif;height:30px;width:400px;}
+.topnav .tp_Rcolumn ul.MB_login{float:right;padding-top:10px;padding-right:10px;}
+.topnav .tp_Rcolumn ul.MB_login li.usrN{float:left;font-size:12px;color:#000;font-weight:bold;padding-right:5px;border-right-width:1px;border-right-style:solid;border-right-color:#cbcbcb;line-height:12px;display:block;height:12px;}
+.topnav .tp_Rcolumn ul.MB_login li.mbSrv{float:left;padding-right:5px;padding-left:5px;border-right-width:1px;border-right-style:solid;border-right-color:#cbcbcb;font-size:12px;color:#3e3e3e;line-height:13px;height:13px;*padding-top:1px !important;}
+.topnav .tp_Rcolumn ul.MB_login li.mbSrv img{padding-left:5px;padding-bottom:2px;}
+.topnav .tp_Rcolumn ul.MB_login li.mbSrv a:link,
+.topnav .tp_Rcolumn ul.MB_login li.mbSrv a:visited{font-size:12px;color:#3e3e3e;text-decoration:none;display:block;}
+.topnav .tp_Rcolumn ul.MB_login li.mbSrv a:hover,
+.topnav .tp_Rcolumn ul.MB_login li.mbSrv a:active{text-decoration:underline;}
+.topnav .tp_Rcolumn ul.MB_login li.signOut{float:left;font-size:12px;line-height:13px;color:#3e3e3e;height:13px;padding-left:5px;display:block;*padding-top:2px !important;}
+.topnav .tp_Rcolumn ul.MB_login li.signOut a:link,
+.topnav .tp_Rcolumn ul.MB_login li.signOut a:visited{font-size:12px;color:#3e3e3e;text-decoration:none;}
+.topnav .tp_Rcolumn ul.MB_login li.signOut a:hover,
+.topnav .tp_Rcolumn ul.MB_login li.signOut a:active{text-decoration:underline;}
+.topnav .tp_Rcolumn ul.MB_non_login{float:right;padding-top:10px;padding-right:10px;}
+.topnav .tp_Rcolumn ul.MB_non_login li.txtHi{font-size:12px;color:#3e3e3e;line-height:12px;float:left;}
+.topnav .tp_Rcolumn ul.MB_non_login li.signIn{float:left;font-size:12px;color:#ff6600;padding-right:5px;border-right-width:1px;border-right-style:solid;border-right-color:#cbcbcb;line-height:12px;display:block;padding-top:1px \9;}
+.topnav .tp_Rcolumn ul.MB_non_login li.signIn a{font-size:12px;color:#ff6600;text-decoration:none;}
+.topnav .tp_Rcolumn ul.MB_non_login li.signIn a:hover{text-decoration:underline;}
+.topnav .tp_Rcolumn ul.MB_non_login li.reG{float:left;font-size:12px;color:#ff6600;line-height:12px;padding-right:5px;padding-left:5px;padding-top:1px \9;}
+.topnav .tp_Rcolumn ul.MB_non_login li.reG a{float:left;font-size:12px;color:#ff6600;text-decoration:none;}
+.topnav .tp_Rcolumn ul.MB_non_login li.reG a:hover{text-decoration:underline;}
+#contentbox{width:1050px;margin-top:0;margin-right:auto;margin-bottom:0;margin-left:auto;padding-bottom:40px;background-color:#FFF;position:relative;z-index:300;}
+#contentbox .topbannerbox{padding-top:10px;}
+.hdbox{padding-bottom:25px;}
+.hdbox .hd_L_column{padding-left:30px;float:left;padding-top:20px;}
+.hdbox .hd_L_column .hdlogo{}
+.hdbox .hd_R_column{float:right;padding-right:5px;width:755px;}
+.hdbox .hd_R_column .PG_fbox{float:right;padding-right:10px;padding-bottom:10px;height:20px;}
+.hdbox .hd_R_column .serbar{padding-bottom:8px;width:755px;}
+.hdbox .hd_R_column .serbar .sr_L_column{float:left;background-image:url(https://ezprice.com.tw/images/BG_sr.gif);background-repeat:no-repeat;background-position:right top;display:block;height:45px;width:655px;}
+.hdbox .hd_R_column .serbar .sr_L_column .srlbox{float:left;padding-top:8px;padding-right:5px;padding-bottom:5px;padding-left:10px;}
+.srlbox .input_srt{height:25px;width:610px;border-top-style:none;border-right-style:none;border-bottom-style:none;border-left-style:none;font-size:16px;color:#333;line-height:25px;}
+.hdbox .hd_R_column .serbar .sr_L_column .srrbox{float:right;padding-right:10px;padding-top:10px;}
+.hdbox .hd_R_column .serbar .sr_R_column{height:45px;width:100px;float:right;}
+.hdbox .hd_R_column .popword{font-size:12px;color:#000;}
+.hdbox .hd_R_column .popword a:link,
+.hdbox .hd_R_column .popword a:visited{font-size:12px;color:#0f66c0;text-decoration:none;}
+.hdbox .hd_R_column .popword a:hover,
+.hdbox .hd_R_column .popword a:active{text-decoration:underline;}
+.mubox{padding-bottom:10px;z-index:99999;}
+.mubox .tr_ezmu{background-image:url(https://ezprice.com.tw/images/BG_ezmenu.gif);background-repeat:no-repeat;background-position:left top;height:50px;width:1050px;font-family:"�L�n������", Verdana, Arial, Helvetica, sans-serif;margin-bottom:10px;z-index:0;position:relative;z-index:2000;}
+.mubox .tr_ezmu .L_muinbox{padding-left:10px;float:left;width:740px;}
+.mubox .tr_ezmu .L_muinbox ul{}
+.mubox .tr_ezmu .L_muinbox .oran_mu{height:50px;width:157px;font-size:20px;float:left;}
+.mubox .tr_ezmu .L_muinbox li.catname{font-size:16px;line-height:50px;color:#FFF;background-image:url(https://ezprice.com.tw/images/line_ezmu.gif);background-repeat:no-repeat;background-position:right center;float:left;height:50px;text-align:center;padding-right:10px;padding-left:10px;}
+.mubox .tr_ezmu .L_muinbox li.catname a{color:#FFF;display:block;}
+.mubox .tr_ezmu .L_muinbox li.catname a:hover{text-decoration:none;}
+.mubox .tr_ezmu .R_muinbox{float:right;width:300px;background-image:url(https://ezprice.com.tw/images/BG_Rezmenu.gif);background-repeat:no-repeat;background-position:right top;height:50px;}
+.mubox .tr_ezmu .R_muinbox .yel_mu{background-image:url(https://ezprice.com.tw/images/BG_RTezmenu.gif);background-repeat:no-repeat;background-position:left top;height:50px;width:5px;float:left;}
+.mubox .tr_ezmu .R_muinbox ul{}
+.mubox .tr_ezmu .R_muinbox li.evtline{float:left;font-size:18px;color:#FFF;line-height:50px;height:50px;padding-right:15px;padding-left:10px;background-image:url(https://ezprice.com.tw/images/line_Rezmu.gif);background-repeat:no-repeat;background-position:right center;}
+.mubox .tr_ezmu .R_muinbox li.evtline a{font-size:18px;color:#FFF;display:block;}
+.mubox .tr_ezmu .R_muinbox li.evtline a:hover{text-decoration:none;}
+.mubox .tr_ezmu .R_muinbox li.evtnon_line{float:left;font-size:18px;color:#FFF;line-height:50px;height:50px;padding-right:10px;padding-left:10px;}
+.mubox .tr_ezmu .R_muinbox li.evtnon_line a{font-size:18px;color:#FFF;display:block;}
+.mubox .tr_ezmu .R_muinbox li.evtnon_line a:hover{text-decoration:none;}
+.mubox .tr_eznv{padding-left:5px;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:12px;color:#565656;z-index:0}
+.mubox .tr_eznv a{font-size:12px;line-height:12px;color:#565656;z-index:0}
+.mubox .tr_eznv a:hover{text-decoration:underline;}
+.dscrbox{background:#ececec;height:30px;margin-bottom:10px;z-index:0;}
+.dscrbox .tr_dscr{font-size:13px;color:#666666;padding-left:25px;line-height:30px;background-image:url(https://ezprice.com.tw/images/icon_dscr.gif);background-repeat:no-repeat;background-position:10px center;}
+.dscrbox .tr_dscr strong{font-size:13px;color:#ff8400;line-height:30px;font-weight:bold;}
+.dscrbox .tr_dscr_L{font-size:13px;color:#666666;padding-left:25px;line-height:30px;background-image:url(https://ezprice.com.tw/images/icon_dscr.gif);background-repeat:no-repeat;background-position:10px center;display:block;float:left;width:900px;}
+.dscrbox .tr_dscr_L strong{font-size:13px;color:#ff8400;line-height:30px;font-weight:bold;}
+.dscrbox .tr_dscr_R{font-size:13px;color:#666666;line-height:30px;display:block;float:right;}
+.tr_dscr_R .switchbox a:link,
+.tr_dscr_R .switchbox a:visited{font-size:12px;line-height:20px;color:#242424;display:block;text-decoration:none;padding-top:5px;padding-right:10px;padding-bottom:5px;padding-left:10px;}
+.tr_dscr_R .switchbox a:hover,
+.tr_dscr_R .switchbox a:active{font-size:12px;line-height:20px;color:#0f66c0;display:block;text-decoration:none;padding-top:5px;padding-right:10px;padding-bottom:5px;padding-left:10px;}
+#contentbox .maintrbox{}
+.maintrbox .man_Lside_column{float:left;width:160px;margin-left:30px;}
+.maintrbox .recombox{padding-bottom:10px;}
+.maintrbox .recombox h5{font-size:15px;color:#000;font-family:"�L�n������";font-weight:bold;padding-bottom:10px;padding-left:5px;}
+.maintrbox .recombox .rcpd{border-top-width:2px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;border-top-style:solid;border-right-style:solid;border-bottom-style:solid;border-left-style:solid;border-top-color:#f29200;border-right-color:#dedede;border-bottom-color:#dedede;border-left-color:#dedede;padding-top:10px;padding-right:10px;padding-left:10px;}
+.maintrbox ul{}
+.maintrbox li.rclist{padding-bottom:10px;display:block;}
+.maintrbox li.rclist a{}
+.maintrbox li.rclist a:hover{text-decoration:none;}
+.maintrbox li.rclist .rcimgbox{text-align:center;padding-bottom:10px;}
+.maintrbox li.rclist p{font-size:12px;color:#666666;padding-bottom:5px;}
+.maintrbox li.rclist strong{font-size:12px;font-weight:bold;color:#000000;}
+.maintrbox li.rclist strong.distag{font-size:12px;font-weight:bold;color:#000;background-image:url(https://ezprice.com.tw/images/icon_distag.gif);background-repeat:no-repeat;background-position:left center;display:block;padding-left:22px;}
+.maintrbox li.rclist strong.protag{font-size:12px;font-weight:bold;color:#000;background-image:url(https://ezprice.com.tw/images/icon_protag.gif);background-repeat:no-repeat;background-position:left center;display:block;padding-left:22px;}
+.maintrbox li.rclist p a:hover,
+.maintrbox li.rclist strong a:hover,
+.maintrbox li.rclist strong.distag a:hover,
+.maintrbox li.rclist strong.protag a:hover{text-decoration:none;}
+.maintrbox .goadlbox{}
+.maintrbox .man_R_column{float:right;width:970px;}
+.maintrbox .man_R_column .sugbox{font-size:13px;color:#939393;padding-left:5px;padding-bottom:10px;}
+.maintrbox .man_R_column .sugbox a{font-size:13px;color:#0f66c0;}
+.maintrbox .man_R_column .sugbox a:hover{text-decoration:underline;}
+.maintrbox .man_R_column .dismodbox{background-color:#f4f4f4;height:30px;border:1px solid #d1d3d4;}
+.maintrbox .man_R_column .dismodbox ul{padding-top:5px;padding-bottom:5px;padding-left:10px;}
+.maintrbox .man_R_column .dismodbox ul li.dismode{float:left;font-size:12px;line-height:20px;color:#6c6c6c;text-align:center;height:20px;width:60px;background-color:#FFFFFF;border:1px solid #d2d2d2;}
+.maintrbox .man_R_column .dismodbox ul li.dismode a{font-size:12px;line-height:20px;color:#6c6c6c;text-align:center;height:20px;width:60px;text-decoration:none;display:block;}
+.maintrbox .man_R_column .dismodbox ul li.dismode a:hover{text-decoration:none;}
+.maintrbox .man_R_column .dismodbox ul li.dismode_on{font-size:12px;line-height:20px;color:#ededed;background-color:#858585;height:20px;width:60px;border:1px solid #696969;text-align:center;float:left;}
+.maintrbox .man_R_column .dismodbox ul li.dismode_on a{font-size:12px;line-height:20px;color:#ededed;height:20px;width:60px;text-align:center;display:block;text-decoration:none;}
+.maintrbox .man_R_column .dismodbox ul li.dismode_on a:hover{text-decoration:none;}
+.maintrbox .man_R_column .pdlistbox{}
+.maintrbox .pdlistbox ul{}
+.maintrbox .pdlistbox ul li.srlisbox{border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:#dedede;padding:10px;}
+.maintrbox .pdlistbox ul li.srlistAD{border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:#dedede;padding:10px;}
+.maintrbox li.srlisbox .srli_L_column{float:left;height:110px;width:110px;overflow:hidden;}
+.maintrbox li.srlisbox .srli_M_column{float:left;width:630px;}
+.maintrbox .pdnambox{padding-left:20px;padding-top:10px;}
+.maintrbox .pdnambox h4{font-size:15px;font-weight:bold;color:#333333;padding-bottom:10px;}
+.maintrbox .pdnambox h4 a:link,
+.maintrbox .pdnambox h4 a:visited{font-size:15px;font-weight:bold;color:#333333;padding-bottom:10px;text-decoration:none;}
+.maintrbox .pdnambox h4 a:hover,
+.maintrbox .pdnambox h4 a:active{font-size:15px;font-weight:bold;color:#333333;padding-bottom:10px;text-decoration:underline;}
+.maintrbox .pdnambox p{font-size:12px;color:#666666;padding-bottom:10px;}
+.maintrbox .pdnambox .pflogo{height:24px;width:75px;overflow:hidden;padding-right:10px;text-align:center;background-image:url(https://ezprice.com.tw/images/line_ptl.gif);background-repeat:no-repeat;background-position:right center;}
+.maintrbox .pdnambox .watch{overflow:hidden;padding-left:10px;font-size:12px;color:#818181;}
+.maintrbox .pdnambox .watch img{padding-right:5px;}
+.maintrbox .pdnambox .wntch{float:left;padding-top:3px;padding-right:5px;margin-left:10px;}
+.maintrbox .pdnambox .wnnum{font-size:12px;color:#818181;float:right;}
+.maintrbox .pdnambox .pdlike{padding-left:10px;}
+.maintrbox li.srlisbox .srli_R_column{float:right;padding-top:10px;display:block;height:33px;width:86px;}
+.maintrbox a.bipricelink:link,
+.maintrbox a.bipricelink:visited{background-image:url(https://ezprice.com.tw/images/btn_detailprice.gif);display:block;height:28px;width:87px;background-repeat:no-repeat;background-position:left top;background-color:#b66200;}
+.maintrbox a.bipricelink:hover,
+.maintrbox a.bipricelink:active{background-image:url(https://ezprice.com.tw/images/btn_biprice_over.gif);background-repeat:no-repeat;background-position:left top;display:block;height:33px;width:86px;background-color:#b66200;}
+.maintrbox a.bipricelink2:link,
+.maintrbox a.bipricelink2:visited{background-image:url(/images/btn_mcgo_dfu.gif);display:block;height:33px;width:86px;background-repeat:no-repeat;background-position:left top;background-color:#b66200;}
+.maintrbox a.bipricelink2:hover,
+.maintrbox a.bipricelink2:active{background-image:url(/images/btn_mcgo_over.gif);background-repeat:no-repeat;background-position:left top;display:block;height:33px;width:86px;background-color:#b66200;}
+.maintrbox li.srlisbox .srli_Ml_column{float:left;width:480px;}
+.maintrbox li.srlisbox .srli_Mr_column{float:left;width:170px;}
+.maintrbox li.srlisbox .srli_Mr_column .prizbox{padding-top:10px;padding-left:30px;}
+.maintrbox li.srlisbox .srli_Mr_column .prizbox strong{font-family:"�L�n������";font-size:22px;color:#f03f39;font-weight:bold;display:block;padding-bottom:10px;}
+.maintrbox li.srlisbox .srli_Mr_column .prizbox span{font-size:15px;font-weight:bold;color:#656565;display:block;}
+.maintrbox li.srlisbox .srli_Mr_column .prizbox p{font-size:12px;color:#818181;background-image:url(https://ezprice.com.tw/images/icon_priz_arrow.gif);background-repeat:no-repeat;background-position:left center;padding-left:10px;}
+.maintrbox li.srlisbox .srli_Mr_column .prizbox p a{font-size:12px;color:#818181;text-decoration:none;}
+.maintrbox li.srlisbox .srli_Mr_column .prizbox p a:hover{text-decoration:underline;}
+.maintrbox .man_R_column .pgbarbox{}
+.maintrbox .newpage{PADDING-RIGHT:3px;PADDING-LEFT:3px;PADDING-BOTTOM:15px;MARGIN:0px;PADDING-TOP:15px;TEXT-ALIGN:center;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:12px;}
+.maintrbox .newpage A{PADDING-RIGHT:6px;BACKGROUND-POSITION:50% bottom;PADDING-LEFT:6px;PADDING-BOTTOM:2px;COLOR:#999999;MARGIN-RIGHT:3px;PADDING-TOP:2px;TEXT-DECORATION:none;border:1px solid #dedfde;background-color:#FFFFFF;}
+.maintrbox .newpage a:hover,
+.maintrbox .newpage a:active{COLOR:#333333;BACKGROUND-COLOR:#ebebeb;border:1px solid #cfcfcf;}
+.maintrbox .newpage span.current{PADDING-RIGHT:6px;PADDING-LEFT:6px;PADDING-BOTTOM:2px;COLOR:#333333;MARGIN-RIGHT:3px;PADDING-TOP:2px;font-weight:bold;border:1px solid #666666;}
+.maintrbox .newpage span.disabled{PADDING-RIGHT:6px;PADDING-LEFT:6px;PADDING-BOTTOM:2px;COLOR:#adaaad;MARGIN-RIGHT:3px;PADDING-TOP:2px;}
+.maintrbox .newpage span.jumpbd{PADDING-RIGHT:6px;PADDING-LEFT:10px;PADDING-BOTTOM:2px;COLOR:#666666;MARGIN-RIGHT:3px;PADDING-TOP:2px;}
+.maintrbox .newpage span.jumpbd select{font-family:Verdana, Arial, Helvetica, sans-serif;font-size:11px;color:#535353;}
+#EZtailbox{width:100%;font-family:Verdana, Arial, Helvetica, sans-serif;}
+.tr_grbox{background-color:#f3f3f3;width:100%;height:40px;margin-bottom:10px;}
+.tr_grbox .gr_tdbox{margin-top:0px;margin-right:auto;margin-left:auto;height:40px;width:1050px;}
+.tr_grbox .gr_tdbox .grtd{padding-left:10px;font-size:12px;line-height:40px;color:##b2b2b2;height:40px;}
+.tr_grbox .gr_tdbox .grtd a:link,
+.tr_grbox .gr_tdbox .grtd a:visited{font-size:12px;color:#333333;padding-right:3px;padding-left:3px;}
+.tr_grbox .gr_tdbox .grtd a:hover,
+.tr_grbox .gr_tdbox .grtd a:active{text-decoration:underline;}
+.tr_grbox .gr_tdbox .grtd a.moblink:link,
+.tr_grbox .gr_tdbox .grtd a.moblink:visited{font-size:12px;color:#333333;font-weight:bold;}
+.tr_grbox .gr_tdbox .grtd a.moblink:hover,
+.tr_grbox .gr_tdbox .grtd a.moblink:active{text-decoration:underline;}
+.tr_grbox .gr_tdbox .grtd a.jolink:link,
+.tr_grbox .gr_tdbox .grtd a.jolink:visited{font-size:12px;color:#ff7e00;font-weight:bold;}
+.tr_grbox .gr_tdbox .grtd a.jolink:hover,
+.tr_grbox .gr_tdbox .grtd a.jolink:active{text-decoration:underline;}
+.tr_infbox{width:1050px;margin-top:0px;margin-right:auto;margin-bottom:0px;margin-left:auto;padding-bottom:10px;}
+.tr_infbox .inf_Ltdbox{padding-left:5px;float:left;padding-right:5px;}
+.tr_infbox .inf_Ltdbox .tilogo{}
+.tr_infbox .inf_Mtdbox{float:left;padding-top:5px;padding-right:5px;padding-bottom:5px;padding-left:10px;}
+.tr_infbox .inf_Mtdbox h3{font-size:13px;color:#c37e08;line-height:18px;padding-bottom:10px;font-weight:normal;}
+.tr_infbox .inf_Mtdbox h3 a.infezlink{font-size:13px;color:#c37e08;line-height:18px;padding-bottom:10px;font-weight:normal;text-decoration:underline;}
+.tr_infbox .inf_Mtdbox p{font-size:12px;color:#989898;line-height:15px;}
+.tr_infbox .inf_Mtdbox h4{font-size:12px;color:#33353d;font-weight:normal;padding-top:10px;padding-bottom:10px;}
+.tr_infbox .inf_Rtdbox{float:right;padding-top:5px;}
+.tr_infbox .inf_Rtdbox .btn_tifb{float:left;padding-right:5px;}
+.tr_infbox .inf_Rtdbox .btn_tiap{float:right;padding-right:5px;}
+.tr_cwbox{width:100%;border-top-width:1px;border-top-style:solid;border-top-color:#eeeeee;}
+.tr_cwbox .cw_tdbox{width:1050px;margin-top:0px;margin-right:auto;margin-bottom:0px;margin-left:auto;padding-top:10px;padding-bottom:30px;}
+.tr_cwbox .cw_L_column{padding-left:100px;float:left;width:500px;}
+.tr_cwbox .cw_L_column ul{height:20px;width:500px;overflow:hidden;}
+.tr_cwbox .cw_L_column li{float:left;height:20px;width:50px;overflow:hidden;padding-right:5px;padding-left:5px;}
+.tr_cwbox .cw_L_column li a{}
+.tr_cwbox .cw_L_column li a:hover{}
+.tr_cwbox .cw_L_column li.coworker{border-right-width:1px;border-right-style:solid;border-right-color:#d6d6d6;padding-right:10px;}
+.tr_cwbox .cw_R_column{float:right;width:430px;}
+.tr_cwbox .cw_R_column ul{height:20px;width:430px;overflow:hidden;}
+.tr_cwbox .cw_R_column li{float:left;padding-right:5px;padding-left:5px;}
+.tr_cwbox .cw_R_column li a{}
+.tr_cwbox .cw_R_column li a:hover{}
+.tr_cwbox .cw_R_column li.newcokr{border-right-width:1px;border-right-style:solid;border-right-color:#d6d6d6;padding-right:10px;}
+.maintrbox .pdnambox strong{font-size:15px;font-weight:bold;color:#ff8400;}
+.maintrbox .pdlistbox ul li.srlisbox_AD{border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:#dedede;padding:10px;background-color:#ffffea;}
+.maintrbox .pdlistbox ul li.srlistAD{border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:#dedede;padding:10px;}
+.maintrbox li.srlisbox_AD .srli_L_column{float:left;height:110px;width:110px;overflow:hidden;border:#dfdfdf solid 1px;}
+.maintrbox li.srlisbox_AD .srli_M_column{float:left;width:630px;}
+.maintrbox li.srlisbox_AD .srli_R_column{float:right;padding-top:10px;display:block;height:33px;width:86px;}
+.maintrbox li.srlisbox_AD .srli_Ml_column{float:left;width:480px;}
+.maintrbox li.srlisbox_AD .srli_Mr_column{float:left;width:170px;}
+.maintrbox li.srlisbox_AD .srli_Mr_column .prizbox{padding-top:10px;padding-left:30px;}
+.maintrbox li.srlisbox_AD .srli_Mr_column .prizbox strong{font-family:"�L�n������";font-size:22px;color:#f03f39;font-weight:bold;display:block;padding-bottom:10px;}
+.maintrbox li.srlisbox_AD .srli_Mr_column .prizbox span{font-size:15px;font-weight:bold;color:#656565;display:block;}
+.maintrbox li.srlisbox_AD .srli_Mr_column .prizbox p{font-size:12px;color:#818181;background-image:url(https://ezprice.com.tw/images/icon_priz_arrow.gif);background-repeat:no-repeat;background-position:left center;padding-left:10px;}
+.maintrbox li.srlisbox_AD .srli_Mr_column .prizbox p a{font-size:12px;color:#818181;text-decoration:none;}
+.maintrbox li.srlisbox_AD .srli_Mr_column .prizbox p a:hover{text-decoration:underline;}
+.srlbox .srboxblur{height:25px;width:610px;border-top-style:none;border-right-style:none;border-bottom-style:none;border-left-style:none;font-size:16px;color:#808080;line-height:25px;}
+.mrch_srdesbox .mrch_srdesbox_L .dismodbox{}
+.mrch_srdesbox .mrch_srdesbox_L .dismodbox ul{}
+.mrch_srdesbox .mrch_srdesbox_L .dismodbox ul li.dismode{float:left;font-size:12px;line-height:20px;color:#6c6c6c;text-align:center;height:20px;width:70px;background-color:#FFFFFF;border:1px solid #d2d2d2;}
+.mrch_srdesbox .mrch_srdesbox_L .dismodbox ul li.dismode a{font-size:12px;line-height:20px;color:#6c6c6c;text-align:center;height:20px;width:70px;text-decoration:none;display:block;}
+.mrch_srdesbox .mrch_srdesbox_L .dismodbox ul li.dismode a:hover{text-decoration:none;}
+.mrch_srdesbox .mrch_srdesbox_L .dismodbox ul li.dismode_on{font-size:12px;line-height:20px;color:#ededed;background-color:#858585;height:20px;width:70px;border:1px solid #696969;text-align:center;float:left;}
+.mrch_srdesbox .mrch_srdesbox_L .dismodbox ul li.dismode_on a{font-size:12px;line-height:20px;color:#ededed;height:20px;width:70px;text-align:center;display:block;text-decoration:none;}
+.mrch_srdesbox .mrch_srdesbox_L .dismodbox ul li.dismode_on a:hover{text-decoration:none;}
+.mubox .new_tagbox{position:absolute;left:511px;top:-13px;display:block;height:27px;width:40px;z-index:100;}
+.mubox .tr_ezmu .L_muinbox li.catname_spec02{font-size:16px;line-height:50px;color:#e9d927;background-image:url(https://ezprice.com.tw/images/line_ezmu.gif);background-repeat:no-repeat;background-position:right center;float:left;height:50px;text-align:center;padding-right:10px;padding-left:10px;display:block;}
+.mubox .tr_ezmu .L_muinbox li.catname_spec02 a{color:#e9d927;display:block;}
+.mubox .tr_ezmu .L_muinbox li.catname_spec02 a:hover{text-decoration:none;}
+.mubox .tr_ezmu .L_muinbox li.catname_spec03{font-size:16px;line-height:50px;color:#ffa800;background-image:url(/images/line_ezmu.gif);background-repeat:no-repeat;background-position:right center;float:left;height:50px;text-align:center;padding-right:10px;padding-left:10px;display:block;}
+.mubox .tr_ezmu .L_muinbox li.catname_spec03 a{color:#ffa800;display:block;}
+.mubox .tr_ezmu .L_muinbox li.catname_spec03 a:hover{text-decoration:none;}
+.mubox .new_tagbox02{position:absolute;left:657px;top:-16px;display:block;height:27px;width:40px;z-index:100;}
+.pkprz_content .icon_redenv{position:absolute;z-index:200;left:-1px;top:-2px;}
+.hdbox .hd_L_column02{padding-left:20px;float:left;}
+.nyside_L{position:absolute;left:-68px;top:70px;}
+.nyside_R{position:absolute;right:10;top:66px;left:1029px;}
+.popurecombox{margin:50px 20px 20px 20px;}
+#container{margin:auto;width:490px;}
+#header{background-image:url(https://ezprice.com.tw/images/header.png);background-repeat:no-repeat;height:42px;width:490px;margin-bottom:20px;}
+#button{height:32px;width:184px;margin:auto;}
+ul, li{margin:0;padding:0;font-family:"微軟正黑體";z-index:999;}
+.menu_class{z-index:999;}
+.the_menu{display:none;width:360px;border:3px solid #33353e;margin-top:0px;z-index:999;position:absolute;background-color:#FFF;}
+.themenu_L{float:left;width:179px;}
+.themenu_R{float:right;border-left-width:1px;border-left-style:dashed;border-left-color:#cccccc;width:179px;}
+.the_menu li{background-color:#FFF;font-size:15px;line-height:25px;color:#7c7c7c;height:25px;z-index:999;padding-right:1px;padding-left:1px;padding-top:1px;}
+.the_menu li a{color:#7c7c7c;text-decoration:none;display:block;font-size:15px;line-height:25px;background-color:#FFF;height:25px;padding-left:10px;}
+.the_menu li a:hover{font-weight:bold;background-color:#ff603e;color:#FFF;display:block;height:25px;}
+#themenu_bot{font-size:12px;color:#404040;background-color:#ebeaea;display:block;height:25px;text-align:right;line-height:25px;}
+#themenu_bot a{font-size:12px;color:#404040;background-color:#ebeaea;display:block;height:25px;text-align:right;line-height:25px;text-decoration:none;}
+#themenu_bot a:hover{text-decoration:underline;}
+#ezrsidemenu{width:1px;height:100%;position:absolute;right:0;top:0;z-index:100000;}
+#ezrsidemenu .sbarbox{position:fixed;height:100%;top:0;right:0;_width:0;}
+#ezrsidemenu .minibox{position:absolute;_width:100%;height:100%;right:0;top:0;padding-left:6px;}
+#ezrsidemenu .Rsidebar_open_v2{position:absolute;right:0px;top:30px;_margin-right:-1px;width:100px;background-image:url(https://ezprice.com.tw/images/BG_Rsidebar.gif);background-repeat:repeat-y;background-position:left top;height:500px;}
+#ezrsidemenu .Rsidebar_open_v2 p.btnClose{text-align:right;padding:5px 5px 0 0;}
+#ezrsidemenu .Rsidebar_close_v2{position:absolute;right:0px;top:30px;width:45px;height:165px;overflow:display;background-image:url(https://ezprice.com.tw/images/BG_Rsidebar.gif);background-repeat:repeat-y;background-position:left top;}
+#ezrsidemenu .Rsidebar_close_v2 a.btn{position:absolute;left:3;top:55px;display:block;width:15px;height:27px;}
+#ezrsidemenu .Rsidebar_close_v2 a.foldopen{display:block;z-index:100;height:27px;width:15px;background-image:url(../images/btn_sbar_foldII_open.gif);background-repeat:no-repeat;background-position:left top;position:absolute;top:54px;left:2px;text-indent:-9999px;}
+#ezrsidemenu .Rsidebar_close_v2 a.top{display:block;position:absolute;bottom:3px;padding-top:10px;width:30px;left:13px;padding-left:2px;}
+#ezrsidemenu .Rsidebar_close_v2 .sky_btn_min{float:right;margin:0px;padding-top:5px;padding-right:6px;padding-bottom:0px;}
+#ezrsidemenu .Rsidebar_close_v2 .sky_btn_min ul.sbar_menu_close a{text-decoration:none;}
+#ezrsidemenu .Rsidebar_close_v2 .sky_btn_min ul.sbar_menu_close a:hover{text-decoration:none;}
+#ezrsidemenu .Rsidebar_close_v2 .sky_btn_min ul.sbar_menu_close li.sbar_muliz_close{border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:#6d6d6d;line-height:30px;position:relative;height:30px;width:10px;padding-right:6px;display:block;}
+#ezrsidemenu .Rsidebar_close_v2 .sky_btn_min ul.sbar_menu_close li.sbar_muliz_close .sbr_mu_icon_close{float:left;text-align:center;padding-top:10px;}
+#ezrsidemenu .Rsidebar_close_v2 .sky_btn_min ul.sbar_menu_close li.sbar_muliz_close a span.num{position:absolute;top:1px;left:-3px;padding-right:1px;width:14px;height:14px;background:url(https://img.emart.co.kr/front_2012/sky/bg_sky_num.png) no-repeat 0 0;font-size:9px;font-family:PFDin-B;font-weight:bold;color:#fff;text-align:center;letter-spacing:-1px;}
+#ezrsidemenu .skyMenuBox{padding-top:5px;padding-bottom:5px;padding-right:5px;}
+#ezrsidemenu .sbar_foldbox_v2{position:absolute;left:25px;top:147px;width:6px;z-index:1;}
+#ezrsidemenu .sbar_foldbox_v2 a.btn{width:13px;height:23px;}
+#ezrsidemenu .sbar_foldbox_v2 a.foldclose{display:block;z-index:100;height:27px;width:15px;background-image:url(https://ezprice.com.tw/images/btn_sbar_foldII_close.gif);background-repeat:no-repeat;background-position:left top;position:absolute;left:-22px;text-indent:-9999px;top:54px;}
+.sbar_menubox_v2{position:relative;padding-left:16px;}
+#ezrsidemenu .Rsidebar_open_v2 .mc_bt{position:absolute;bottom:0;background:#333;height:19px;color:#fff;width:100%;text-align:center;}
+#ezrsidemenu .Rsidebar_open_v2 .sbar_btntopbox_v2{display:block;width:80px;height:30px;padding-top:10px;margin-left:16px;position:absolute;top:460px;background-image:url(https://ezprice.com.tw/images/line_sbar_top.gif);background-repeat:repeat-x;background-position:left top;}
+.sbar_menubox_v2 ul.sbar_menu{text-decoration:none;margin:0px;padding:0px;}
+.sbar_menubox_v2 ul.sbar_menu li.sbar_muliz_df{border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:#6d6d6d;line-height:35px;position:relative;width:80px;display:block;height:35px;}
+.sbar_menubox_v2 ul.sbar_menu li.sbar_muliz_df a{line-height:35px;position:relative;width:80px;display:block;height:35px;text-decoration:none;}
+.sbar_menubox_v2 ul.sbar_menu li.sbar_muliz_df a:hover{text-decoration:none;}
+#ezrsidemenu .sbarbox .minibox .Rsidebar_open_v2 .Rsbopenbtn .skyMenuBox .sbar_menubox_v2 ul.sbar_menu li.sbar_muliz_df .sbr_mu_icon{float:left;text-align:center;padding-top:11px;width:15px;margin-right:1px;}
+.sbar_menubox_v2 ul.sbar_menu li.sbar_muliz_df strong{font-size:12px;color:#e7e7e7;text-decoration:none;}
+.sbar_menubox_v2 ul.sbar_menu li.sbar_muliz_df .viewed_pd_count{display:block;background-color:#292929;border-radius:8px;height:18px;width:18px;color:#FFFFFF;position:absolute;top:1px;left:0px;font-family:Arial;font-size:11px;line-height:18px;text-align:center;z-index:100;}
+.sbar_menubox_v2 ul.sbar_menu li.sbar_muliz_focus{border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:#6d6d6d;line-height:35px;position:relative;width:80px;display:block;height:35px;background-color:#f29200;}
+.sbar_menubox_v2 ul.sbar_menu li.sbar_muliz_focus a{line-height:35px;position:relative;width:80px;display:block;height:35px;text-decoration:none;background-color:#ff4e1b;}
+.sbar_menubox_v2 ul.sbar_menu li.sbar_muliz_focus a:hover{text-decoration:none;background-color:#ff4e1b;}
+.sbar_menubox_v2 ul.sbar_menu li.sbar_muliz_focus .sbr_mu_icon{float:left;text-align:center;padding-top:11px;width:15px;margin-right:1px;}
+.sbar_menubox_v2 ul.sbar_menu li.sbar_muliz_focus strong{font-size:12px;color:#ffffff;text-decoration:none;}
+.sbar_menubox_v2 ul.sbar_menu li.sbar_muliz_focus .viewed_pd_count{display:block;background-color:#292929;border-radius:8px;height:18px;width:18px;color:#FFFFFF;position:absolute;top:1px;left:0px;font-family:Arial;font-size:11px;line-height:18px;text-align:center;z-index:100;}
+.sbar_menubox_v2 .viewed_pd_listbox{padding-left:8px;width:65px;padding-top:20px;}
+.sbar_menubox_v2 .viewed_pd_listbox ul{margin:0px;padding:0px;}
+.sbar_menubox_v2 .viewed_pd_listbox li.vplizbox{padding-bottom:5px;}
+.sbar_menubox_v2 .viewed_pd_listbox li.vplizbox .vpliz_cross{height:10px;width:10px;display:block;position:absolute;z-index:100;left:78px;}
+.sbar_menubox_v2 .viewed_pd_listbox li.vplizbox .vpliz_pic{float:left;height:65px;width:65px;overflow:hidden;position:relative;}
+.newpagebox{MARGIN:0px;TEXT-ALIGN:center;font-family:Tahoma;font-size:12px;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:8px;}
+.newpagebox .pgcountbox{float:left;padding-top:8px;}
+.newpagebox .pgcountbox a{COLOR:#ffffff;TEXT-DECORATION:none;font-weight:bold;padding-top:2px;padding-right:3px;padding-bottom:2px;padding-left:3px;}
+.newpagebox .pgcountbox a:hover,
+.newpagebox .pgcountbox a:active{COLOR:#ffffff;text-decoration:none;font-weight:bold;}
+.newpagebox .nextpg{COLOR:#ffffff;TEXT-DECORATION:none;font-weight:bold;background-image:url(https://ezprice.com.tw/images/sbar_meu_preview.gif);background-repeat:no-repeat;background-position:right top;display:block;text-indent:-9999px;float:left;margin-right:3px;height:10px;width:10px;margin-top:15px;}
+.newpagebox .nextpg a,
+.newpagebox .nextpg a:hover,
+.newpagebox .nextpg a:active{COLOR:#ffffff;text-decoration:none;background-image:url(https://ezprice.com.tw/images/sbar_meu_preview.gif);background-repeat:no-repeat;background-position:right top;display:block;margin:0px;padding:0px;height:10px;width:10px;}
+.newpagebox .nextpg_disabled{COLOR:#383838;display:block;background-image:url(https://ezprice.com.tw/images/sbar_meu_preview_none.gif);background-repeat:no-repeat;background-position:left top;text-indent:-9999px;height:10px;width:10px;float:left;margin-top:15px;margin-left:3px;}
+.newpagebox span.current{PADDING-RIGHT:3px;PADDING-LEFT:3px;PADDING-BOTTOM:2px;COLOR:#383838;PADDING-TOP:2px;}
+.newpagebox .reviewpg{COLOR:#ffffff;TEXT-DECORATION:none;font-weight:bold;background-image:url(https://ezprice.com.tw/images/sbar_meu_review_none.gif);background-repeat:no-repeat;background-position:left top;display:block;text-indent:-9999px;height:10px;width:10px;float:left;margin-top:15px;margin-left:3px;}
+.newpagebox .reviewpg a,
+.newpagebox .reviewpg a:hover,
+.newpagebox .reviewpg a:active{COLOR:#ffffff;text-decoration:none;background-image:url(https://ezprice.com.tw/images/sbar_meu_review.gif);background-repeat:no-repeat;background-position:left top;display:block;margin:0px;padding:0px;height:10px;width:10px;}
+.newpagebox .reviewpg_disabled{COLOR:#383838;display:block;background-image:url(https://ezprice.com.tw/images/sbar_meu_review_none.gif);background-repeat:no-repeat;background-position:left top;display:block;text-indent:-9999px;height:10px;width:10px;float:left;margin-top:15px;margin-left:3px;}
+.newpagebox span.jumpbd{COLOR:#ffffff;font-weight:bold;}
+.newpagebox span.jumpbd select{color:#ffffff;}
+#ezrsidemenu .Rsidebar_close_v2 .sky_btn_min ul.sbar_menu_close li.sbar_muliz_close .viewed_pd_count_close{display:block;background-color:#292929;border-radius:8px;height:18px;width:18px;color:#FFFFFF;position:absolute;top:0px;left:-10px;font-family:Arial;font-size:11px;line-height:18px;text-align:center;z-index:100;}
+.sbar_hispdnamebox{width:130px;height:62px;z-index:200;position:absolute;left:-110px;}
+.sbar_hispdnamebox a{width:130px;height:62px;z-index:200;text-decoration:none;}
+.sbar_hispdnamebox a:hover{text-decoration:none;}
+.sbar_hispd_R{float:right;background-image:url(https://ezprice.com.tw/images/sbar_pdbox.gif);background-repeat:no-repeat;background-position:right center;display:block;height:62px;width:5px;}
+.sbar_hispd_content{float:left;height:50px;width:119px;border-top-width:1px;border-bottom-width:1px;border-left-width:1px;border-top-style:solid;border-bottom-style:solid;border-left-style:solid;border-top-color:#bab6b6;border-bottom-color:#bab6b6;border-left-color:#bab6b6;display:block;background-color:#FFF;padding-top:5px;padding-bottom:5px;padding-left:5px;border-right-width:0px;border-right-style:solid;}
+.sbar_hispd_content strong{font-size:12px;line-height:14px;color:#1e1e1e;display:block;overflow:hidden;height:27px;margin-bottom:5px;}
+.sbar_hispd_content span{font-size:12px;color:#d20d12;font-family:Arial;}
+.special_salebox_pop{position:fixed;width:220px;right:0px;bottom:0px;z-index:100001;}
+.functionbox{height:15px;display:block;padding-bottom:2px;}
+.functionbox img{float:right;}
+.special_salebox{position:relative;background:#ffffff;}
+.special_salebox_pop .sstop{background-image:url(https://ezprice.com.tw/images/special_sale_top.gif);background-repeat:no-repeat;height:46px;width:220px;text-indent:-9999px;}
+.special_salebox_pop .sscontent{border-right-width:3px;border-left-width:3px;border-right-style:solid;border-left-style:solid;border-right-color:#fcb200;border-left-color:#fcb200;padding-left:37px;padding-top:5px;}
+.special_salebox_pop .sscontent .timebox{padding-top:5px;padding-bottom:10px;width:130px;padding-left:5px;}
+.special_salebox_pop .sscontent .timebox .time_board{background-image:url(https://ezprice.com.tw/images/time_board.gif);background-repeat:no-repeat;background-position:left top;height:22px;width:15px;color:#f8fafe;font-size:18px;line-height:22px;text-align:center;padding-right:5px;}
+.special_salebox_pop .sscontent .timebox .time_spot{padding-right:5px;}
+.special_salebox_pop .sscontent p{width:140px;font-family:Arial;font-size:13px;color:#000000;height:30px;overflow:hidden;line-height:15px;text-align:center;display:block;}
+.special_salebox_pop .sscontent p a{font-size:13px;color:#000000;text-decoration:none;}
+.special_salebox_pop .sscontent p a:hover{text-decoration:underline}
+.special_salebox_pop .sscontent .sspdbox{height:140px;width:140px;overflow:hidden;}
+.special_salebox_pop .sscontent .ssdiscount{font-size:36px;font-weight:bold;color:#FFF;background-image:url(https://ezprice.com.tw/images/BG_ssdiscount.gif);background-repeat:no-repeat;background-position:left top;height:67px;width:60px;line-height:55px;padding-left:7px;position:absolute;z-index:100;left:150px;top:185px;text-align:center;}
+.special_salebox_pop .sscontent .ssoriprz{font-size:12px;color:#5c5c5c;padding-top:5px;}
+.special_salebox_pop .ssbottom{border-right-width:3px;border-bottom-width:3px;border-left-width:3px;border-right-style:solid;border-bottom-style:solid;border-left-style:solid;border-right-color:#fcb200;border-bottom-color:#fcb200;border-left-color:#fcb200;padding-bottom:5px;font-family:"", Arial, Helvetica, sans-serif;padding-left:15px;}
+.special_salebox_pop .ssbottom .ssprzbox{}
+.special_salebox_pop .ssbottom .ssprzbox .ssprzbox_L{float:left;font-size:20px;color:#ff7e00;font-weight:bold;}
+.special_salebox_pop .ssbottom .ssprzbox .ssprzbox_L span{font-size:13px;color:#5c5c5c;font-weight:normal;font-family:"", Arial;padding-left:2px;text-decoration:line-through;}
+.special_salebox_pop .ssbottom .ssprzbox .ssprzbox_R{float:left;font-size:18px;font-weight:bold;color:#ff0000;padding-top:3px;}
+.special_salebox_pop .ssbottom .ssprzbox .ssprzbox_R strong{font-size:32px;color:#ff0000;font-weight:bold;line-height:32px;}
+.special_salebox_pop .btn_toseebox{text-align:center;height:50px;margin:0px;position:absolute;padding-top:10px;padding-right:15px;padding-bottom:0px;padding-left:15px;}
+.special_salebox .sstop{background-image:url(https://ezprice.com.tw/images/special_sale_top.gif);background-repeat:no-repeat;height:46px;width:220px;text-indent:-9999px;}
+.special_salebox .sscontent{border-right-width:3px;border-left-width:3px;border-right-style:solid;border-left-style:solid;border-right-color:#fcb200;border-left-color:#fcb200;padding-bottom:5px;padding-left:37px;}
+.special_salebox .sscontent .timebox{padding-top:5px;padding-bottom:5px;width:130px;padding-left:5px;}
+.special_salebox .sscontent .timebox .time_board{background-image:url(https://ezprice.com.tw/images/time_board.gif);background-repeat:no-repeat;background-position:left top;height:22px;width:15px;color:#f8fafe;font-size:18px;line-height:22px;text-align:center;padding-right:5px;}
+.special_salebox .sscontent .timebox .time_spot{padding-right:5px;}
+.special_salebox .sscontent p{width:140px;font-family:Arial;font-size:13px;color:#000000;height:30px;overflow:hidden;line-height:15px;margin-bottom:5px;text-align:center;display:block;}
+.special_salebox .sscontent p a{font-size:13px;color:#000000;text-decoration:none;}
+.special_salebox .sscontent p a:hover{text-decoration:underline}
+.special_salebox .sscontent .sspdbox{height:140px;width:140px;overflow:hidden;}
+.special_salebox .sscontent .ssdiscount{font-size:36px;font-weight:bold;color:#FFF;background-image:url(https://ezprice.com.tw/images/BG_ssdiscount.gif);background-repeat:no-repeat;background-position:left top;height:67px;width:60px;line-height:55px;padding-left:7px;position:absolute;z-index:100;left:150px;top:185px;text-align:center;}
+.special_salebox .sscontent .ssoriprz{font-size:12px;color:#5c5c5c;padding-top:5px;}
+.special_salebox .ssbottom{border-right-width:3px;border-bottom-width:3px;border-left-width:3px;border-right-style:solid;border-bottom-style:solid;border-left-style:solid;border-right-color:#fcb200;border-bottom-color:#fcb200;border-left-color:#fcb200;padding-bottom:5px;font-family:"", Arial, Helvetica, sans-serif;padding-left:15px;}
+.special_salebox .ssbottom .ssprzbox{}
+.special_salebox .ssbottom .ssprzbox .ssprzbox_L{float:left;font-size:20px;color:#ff7e00;font-weight:bold;}
+.special_salebox .ssbottom .ssprzbox .ssprzbox_L span{font-size:13px;color:#5c5c5c;font-weight:normal;font-family:"", Arial;padding-left:2px;text-decoration:line-through;}
+.special_salebox .ssbottom .ssprzbox .ssprzbox_R{float:left;font-size:18px;font-weight:bold;color:#ff0000;padding-top:3px;}
+.special_salebox .ssbottom .ssprzbox .ssprzbox_R strong{font-size:32px;color:#ff0000;font-weight:bold;line-height:32px;}
+.icon_nyredenv{position:absolute;left:-25px;top:90px;z-index:20006px;}
+.special_salebox .sscontent .ssdiscount span{font-size:28px;color:#FFF;}
+@charset "utf-8";.mrch_titlebox{background-color:#ececec;height:35px;border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:#c1c1c1;padding-left:10px;margin-bottom:20px;padding-right:10px;}
+.mrch_titlebox h1{font-size:18px;color:#000000;line-height:35px;display:block;height:35px;width:800px;float:left;font-family:"微軟正黑體";}
+.mrch_titlebox .sharebox{float:right;width:85px;}
+.mrch_titlebox .sharebox p{display:block;font-size:12px;line-height:35px;color:#666666;width:40px;float:left;height:35px;}
+.mrch_titlebox .sharebox .shar_rcolum{padding-left:5px;float:right;width:40px;padding-top:9px;padding-top:7px \9;}
+.mrch_contentbox{padding-right:10px;padding-bottom:10px;padding-left:10px;}
+.mrc_L_column{float:left;height:250px;width:250px;border:1px solid #dedede;overflow:hidden;}
+.mrc_L_column .mrimgbox{height:250px;width:250px;overflow:hidden;}
+.mrc_M_column{float:left;width:420px;height:255px;overflow:hidden;}
+.mrc_M_column .mrcinfbox{padding-left:20px;font-size:12px;color:#868686;padding-right:10px;padding-top:5px;}
+.mrc_M_column .mrcinfbox span{font-family:"微軟正黑體";font-size:15px;color:#000000;padding-right:5px;padding-left:10px;}
+.mrc_M_column .mrcinfbox .mrcpriz{display:block;height:60px;line-height:60px;border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:#d1d3d4;padding-left:10px;}
+.mrc_M_column .mrcinfbox .big_icon{font-size:25px;color:#f03f39;}
+.mrc_M_column .mrcinfbox .big_priz{font-size:36px;color:#f03f39;}
+.mrc_M_column .mrcinfbox .smal_icon{font-size:20px;color:#666666;}
+.mrc_M_column .mrcinfbox .smal_priz{font-size:25px;color:#666666;}
+.mrc_M_column ul.introtxt{padding-top:10px;padding-left:10px;padding-right:10px;}
+.mrc_M_column ul.introtxt li{font-size:12px;color:#666666;padding-bottom:5px;}
+.mrc_M_column .introfbbox{color:#333;font-weight:bold;padding-left:10px;padding-bottom:10px;}
+.mrc_M_column .mrcinfbox .mrc_btnbox{padding-left:10px;width:250px;}
+.mrc_M_column .btn_moreinfor{background-color:#5b5b5b;display:block;height:27px;width:102px;float:left;margin-right:5px;background-image:url(https://ezprice.com.tw/images/btn_moreinfor.gif);background-repeat:no-repeat;background-position:left top;}
+.mrc_M_column .btn_moreinfor a{text-decoration:none;}
+.mrc_M_column .btn_moreinfor a:hover{text-decoration:none;}
+.mrc_M_column .btn_inlist{background-image:url(https://ezprice.com.tw/images/btn_inlist_off.gif);background-repeat:no-repeat;background-position:left top;display:block;height:27px;width:102px;float:left;}
+.mrc_M_column .btn_inlist a{background-image:url(https://ezprice.com.tw/images/btn_inlist_off.gif);background-repeat:no-repeat;background-position:left top;display:block;height:27px;width:102px;text-decoration:none;}
+.mrc_M_column .btn_inlist a:active{background-image:url(https://ezprice.com.tw/images/btn_inlist_on.gif);background-repeat:no-repeat;background-position:left top;}
+.mrc_R_column{float:right;height:250px;width:350px;font-family:"微軟正黑體";}
+.mrc_R_column .historybox{border:1px solid #dcdcdc;height:160px;}
+.mrc_R_column .his_title{font-size:15px;color:#000000;background-color:#f2f2f3;padding-left:10px;height:30px;line-height:30px;border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:#dcdcdc;}
+.mrc_R_column .his_prizbox{padding-left:20px;padding-top:10px;padding-bottom:5px;}
+.mrc_R_column .userecombox{padding-top:10px;}
+.mrc_R_column .userecombox h4{font-size:15px;color:#000;padding-bottom:10px;}
+.mrc_R_column .userecombox .fbuser{}
+.mrch_optionsbox{background-image:url(https://ezprice.com.tw/images/BG_mrch_fliter.png);background-repeat:no-repeat;background-position:left top;border-bottom-width:2px;border-bottom-style:solid;border-bottom-color:#404040;padding-top:25px;padding-right:5px;padding-bottom:10px;padding-left:5px;margin-bottom:10px;}
+.mrch_optionsbox .Moptionsbox{padding-left:10px;border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:#e1e2e3;height:30px;margin-bottom:10px;}
+.mrch_optionsbox .Moptionsbox_PLT{padding-left:10px;mini-height:20px;border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:#d1d3d4;}
+.mrch_optionsbox .tr_mrchlist_bar{}
+.mrch_optionsbox .tr_mrchlist{}
+.mrch_optionsbox .tr_mrchPlt{mini-height:20px;}
+.mrch_optionsbox .name{float:left;font-size:12px;color:#666666;background-image:url(https://ezprice.com.tw/images/icon_list.gif);background-repeat:no-repeat;background-position:left center;line-height:20px;padding-left:5px;height:20px;width:100px;border-right-width:1px;border-right-style:solid;border-right-color:#e1e2e3;}
+.mrch_optionsbox .name_plt{float:left;font-size:12px;color:#666666;background-image:url(https://ezprice.com.tw/images/icon_list.gif);background-repeat:no-repeat;background-position:left center;line-height:20px;padding-left:5px;height:20px;width:100px;border-right-width:1px;border-right-style:solid;border-right-color:#e1e2e3;}
+.mrch_optionsbox ul{}
+.mrch_optionsbox .optitembox{width:790px;float:right;}
+.mrch_optionsbox li.barline{float:left;line-height:20px;height:20px;width:300px;padding-left:7px;//background-image:url(https://ezprice.com.tw/images/priz_rgbar.gif);background-repeat:no-repeat;background-position:left center;margin-right:20px;}
+.mrch_optionsbox li.barline img{padding-top:3px;}
+.mrch_optionsbox li strong{float:left;font-size:12px;font-weight:bold;color:#333333;line-height:20px;height:20px;width:85px;}
+.mrch_optionsbox li.optitxt{float:left;font-size:12px;line-height:20px;color:#666666;height:30px;display:block;font-family:Verdana, sans-serif, "新細明體", Helvetica;padding-right:15px;}
+.mrch_optionsbox .input_mrc{float:left;padding-top:3px;padding-right:5px;}
+.mrch_optionsbox li.opti_plf{float:left;padding-right:15px;padding-bottom:10px;}
+.mrch_optionsbox li.opti_More{float:right;font-size:12px;line-height:20px;color:#666666;display:block;width:65px;}
+.mrch_optionsbox li.opti_More a{float:right;font-size:12px;line-height:20px;color:#666666;text-decoration:none;display:block;width:65px;}
+.mrch_optionsbox li.opti_More a:hover{text-decoration:underline;}
+.mrch_optionsbox li.opti_More img{padding-bottom:2px;padding-left:5px;}
+.mrch_optionsbox .btn_option{display:block;height:22px;width:103px;background-image:url(https://ezprice.com.tw/images/btn_do_option.gif);background-repeat:no-repeat;background-position:left top;}
+.mrch_optionsbox .btn_option a{display:block;height:22px;width:103px;background-image:url(https://ezprice.com.tw/images/btn_do_option.gif);background-repeat:no-repeat;background-position:left top;}
+.mrch_optionsbox .btn_option a:hover{display:block;height:22px;width:103px;background-image:url(https://ezprice.com.tw/images/btn_do_option.gif);background-repeat:no-repeat;background-position:left top;}
+.mrch_srdesbox{padding-bottom:10px;font-size:13px;color:#33353d;}
+.mrch_srdesbox span{font-size:13px;font-weight:bold;color:#ff8400;}
+.mrch_srdesbox strong{font-size:13px;font-weight:bold;color:#33353d;}
+.mrch_srdesbox .SVlink{font-size:13px;color:#0f66c0;border-left-width:1px;border-left-style:solid;border-left-color:#b7b7b7;width:80px;padding-left:5px;line-height:13px;}
+.mrch_srdesbox .SVlink a{font-size:13px;color:#0f66c0;text-decoration:none;line-height:13px;}
+.mrch_srdesbox .SVlink a:hover{text-decoration:underline;}
+.MRlis_titlebox{background-color:#f4f4f4;border:1px solid #d1d3d4;height:30px;}
+.MRlis_titlebox ul{padding-top:5px;}
+.MRlis_titlebox li.tdplt{float:left;font-size:12px;color:#5f5f5f;width:115px;border-right-width:1px;border-right-style:solid;border-right-color:#d1d3d4;height:20px;text-align:center;line-height:20px;}
+.MRlis_titlebox li.tdprd{float:left;font-size:12px;color:#5f5f5f;width:380px;border-right-width:1px;border-right-style:solid;border-right-color:#d1d3d4;height:20px;text-align:center;line-height:20px;}
+.MRlis_titlebox li.tdpay{float:left;font-size:12px;color:#5f5f5f;width:160px;border-right-width:1px;border-right-style:solid;border-right-color:#d1d3d4;height:20px;text-align:center;line-height:20px;}
+.MRlis_titlebox li.tdship{float:left;font-size:12px;color:#5f5f5f;width:100px;border-right-width:1px;border-right-style:solid;border-right-color:#d1d3d4;height:20px;text-align:center;line-height:20px;}
+.MRlis_titlebox li.tdpriz{float:left;font-size:12px;color:#5f5f5f;width:160px;border-right-width:1px;border-right-style:solid;border-right-color:#d1d3d4;height:20px;text-align:center;line-height:20px;}
+.MRlistBox{}
+.MRlistBox li.MRlist{display:block;height:90px;padding-top:20px;border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:#dedede;}
+.MRlistBox li.MRlist:hover{background-color:#f3f3f3;}
+.MRlistBox li.MRlist .MRl_tdLl{float:left;width:120px;overflow:hidden;}
+.MRlistBox li.MRlist .Llbox{text-align:center;display:block;height:35px;overflow:hidden;width:110px;}
+.MRlistBox li.MRlist .Llsmallbox{}
+.MRlistBox li.MRlist .sm_top{background-image:url(https://ezprice.com.tw/images/list_smabox.gif);background-repeat:no-repeat;background-position:center top;display:block;height:9px;width:110px;}
+.MRlistBox li.MRlist .sm_content{display:block;height:35px;width:109px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;border-right-style:solid;border-bottom-style:solid;border-left-style:solid;border-right-color:#b1b1b1;border-bottom-color:#b1b1b1;border-left-color:#b1b1b1;text-align:center;padding-top:10px;}
+.MRlistBox li.MRlist .MRl_tdLr{float:left;width:380px;}
+.MRlistBox li.MRlist h3{font-size:15px;color:#333333;padding-bottom:5px;font-weight:normal;padding-left:15px;padding-right:15px;}
+.MRlistBox li.MRlist h3 a{font-size:15px;color:#1827E2;padding-bottom:5px;font-weight:normal;text-decoration:none;}
+.MRlistBox li.MRlist h3 a:hover{text-decoration:underline;color:#1827E2;}
+.MRlistBox li.MRlist .Lr_probox{background-image:url(https://ezprice.com.tw/images/icon_list_pro.gif);background-repeat:no-repeat;background-position:15px top;padding-left:55px;font-size:12px;color:#e8041b;padding-bottom:10px;}
+.MRlistBox li.MRlist .Lr_disbox{background-image:url(https://ezprice.com.tw/images/icon_list_dis.gif);background-repeat:no-repeat;background-position:15px top;padding-left:65px;font-size:12px;color:#e8041b;padding-bottom:10px;}
+.MRlistBox li.MRlist .Lr_watchbox{padding-left:15px;font-size:12px;color:#818181;}
+.MRlistBox li.MRlist .MRl_tdMl{float:left;width:160px;}
+.MRlistBox li.MRlist .Ml_paybox{padding-left:25px;}
+.MRlistBox li.MRlist .Ml_paybox img{padding-right:5px;padding-bottom:5px;}
+.MRlistBox li.MRlist .MRl_tdMr{float:left;width:100px;}
+.MRlistBox li.MRlist .Mr_shipbox{text-align:center;}
+.MRlistBox li.MRlist .Mr_shipbox img{padding-right:5px;padding-bottom:5px;}
+.MRlistBox li.MRlist .MRl_tdRl{float:left;width:160px;font-family:"微軟正黑體";font-size:20px;font-weight:bold;color:#f03f39;text-align:center;}
+.MRlistBox li.MRlist .MRl_tdRr{float:left;width:100px;padding-left:20px;}
+.MRlistBox li.MRlist .Rl_btnbox{background-image:url(https://ezprice.com.tw/images/btn_buyit.gif);background-repeat:no-repeat;background-position:left top;display:block;height:28px;width:87px;background-color:#1e1e1e;margin-bottom:5px;}
+.MRlistBox li.MRlist .Rl_btnbox a{background-image:url(https://ezprice.com.tw/images/btn_buyit.gif);background-repeat:no-repeat;background-position:left top;display:block;height:28px;width:87px;background-color:#1e1e1e;}
+.MRlistBox li.MRlist .Rl_btnadd{background-image:url(https://ezprice.com.tw/images/btn_shoplist_on.gif);background-repeat:no-repeat;background-position:left top;display:block;height:21px;width:86px;}
+.MRlistBox li.MRlist .Rl_btnadd a{background-image:url(https://ezprice.com.tw/images/btn_shoplist_on.gif);background-repeat:no-repeat;background-position:left top;display:block;height:21px;width:86px;}
+.MRlistBox li.MRlist .Rl_btnadd a:active{background-image:url(https://ezprice.com.tw/images/btn_shoplist_off.gif);background-repeat:no-repeat;background-position:left top;height:21px;width:86px;}
+.MRlistBox li.MRlist_AD{display:block;padding-top:20px;border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:#dedede;background-color:#ffffea;}
+.MRlistBox li.MRlist_AD .MRl_tdLl{float:left;width:120px;overflow:hidden;}
+.MRlistBox li.MRlist_AD .Llbox{text-align:center;display:block;height:35px;overflow:hidden;width:110px;}
+.MRlistBox li.MRlist_AD .Llbox img{background-color:#FFFFFF;padding:3px;border:1px solid #dfdfdf;}
+.MRlistBox li.MRlist_AD .Llsmallbox{}
+.MRlistBox li.MRlist_AD .sm_top{background-image:url(https://ezprice.com.tw/images/list_smabox.gif);background-repeat:no-repeat;background-position:center top;display:block;height:9px;width:110px;}
+.MRlistBox li.MRlist_AD .sm_content{display:block;height:35px;width:109px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;border-right-style:solid;border-bottom-style:solid;border-left-style:solid;border-right-color:#b1b1b1;border-bottom-color:#b1b1b1;border-left-color:#b1b1b1;text-align:center;padding-top:10px;}
+.MRlistBox li.MRlist_AD .MRl_tdLr{float:left;width:380px;}
+.MRlistBox li.MRlist_AD h3{font-size:15px;color:#333333;padding-bottom:5px;font-weight:normal;padding-left:15px;padding-right:15px;}
+.MRlistBox li.MRlist_AD h3 a{font-size:15px;color:#1827E2;padding-bottom:5px;font-weight:normal;text-decoration:none;}
+.MRlistBox li.MRlist_AD h3 a:hover{text-decoration:underline;color:#1827E2;}
+.MRlistBox li.MRlist_AD .Lr_probox{background-image:url(https://ezprice.com.tw/images/icon_list_pro.gif);background-repeat:no-repeat;background-position:15px top;padding-left:55px;font-size:12px;color:#e8041b;padding-bottom:10px;}
+.MRlistBox li.MRlist_AD .Lr_disbox{background-image:url(https://ezprice.com.tw/images/icon_list_dis.gif);background-repeat:no-repeat;background-position:15px top;padding-left:65px;font-size:12px;color:#e8041b;padding-bottom:10px;}
+.MRlistBox li.MRlist_AD .Lr_watchbox{padding-left:15px;font-size:12px;color:#818181;}
+.MRlistBox li.MRlist_AD .MRl_tdMl{float:left;width:160px;}
+.MRlistBox li.MRlist_AD .Ml_paybox{padding-left:25px;}
+.MRlistBox li.MRlist_AD .Ml_paybox img{padding-right:5px;padding-bottom:5px;}
+.MRlistBox li.MRlist_AD .MRl_tdMr{float:left;width:100px;}
+.MRlistBox li.MRlist_AD .Mr_shipbox{text-align:center;}
+.MRlistBox li.MRlist_AD .Mr_shipbox img{padding-right:5px;padding-bottom:5px;}
+.MRlistBox li.MRlist_AD .MRl_tdRl{float:left;width:160px;font-family:"微軟正黑體";font-size:20px;font-weight:bold;color:#f03f39;text-align:center;}
+.MRlistBox li.MRlist_AD .MRl_tdRr{float:left;width:100px;padding-left:20px;}
+.MRlistBox li.MRlist_AD .Rl_btnbox{background-image:url(https://ezprice.com.tw/images/btn_buyit.gif);background-repeat:no-repeat;background-position:left top;display:block;height:28px;width:87px;background-color:#1e1e1e;margin-bottom:5px;}
+.MRlistBox li.MRlist_AD .Rl_btnbox a{background-image:url(https://ezprice.com.tw/images/btn_buyit.gif);background-repeat:no-repeat;background-position:left top;display:block;height:28px;width:87px;background-color:#1e1e1e;}
+.MRlistBox li.MRlist_AD .Rl_btnadd{background-image:url(https://ezprice.com.tw/images/btn_shoplist_on.gif);background-repeat:no-repeat;background-position:left top;display:block;height:21px;width:86px;}
+.MRlistBox li.MRlist_AD .Rl_btnadd a{background-image:url(https://ezprice.com.tw/images/btn_shoplist_on.gif);background-repeat:no-repeat;background-position:left top;display:block;height:21px;width:86px;}
+.MRlistBox li.MRlist_AD .Rl_btnadd a:active{background-image:url(https://ezprice.com.tw/images/btn_shoplist_off.gif);background-repeat:no-repeat;background-position:left top;height:21px;width:86px;}
+.MRlistBox li.MRlist_AD{display:block;padding-top:20px;border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:#dedede;background-color:#ffffea;}
+.MRlistBox li.MRlist_AD .MRl_tdLl{float:left;width:120px;overflow:hidden;}
+.MRlistBox li.MRlist_AD .Llbox{text-align:center;display:block;height:35px;overflow:hidden;width:110px;}
+.MRlistBox li.MRlist_AD .Llbox img{background-color:#FFFFFF;padding:3px;border:1px solid #dfdfdf;}
+.MRlistBox li.MRlist_AD .Llsmallbox{}
+.MRlistBox li.MRlist_AD .sm_top{background-image:url(https://ezprice.com.tw/images/list_smabox.gif);background-repeat:no-repeat;background-position:center top;display:block;height:9px;width:110px;}
+.MRlistBox li.MRlist_AD .sm_content{display:block;height:35px;width:109px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;border-right-style:solid;border-bottom-style:solid;border-left-style:solid;border-right-color:#b1b1b1;border-bottom-color:#b1b1b1;border-left-color:#b1b1b1;text-align:center;padding-top:10px;}
+.MRlistBox li.MRlist_AD .MRl_tdLr{float:left;width:380px;}
+.MRlistBox li.MRlist_AD h3{font-size:15px;color:#333333;padding-bottom:5px;font-weight:normal;padding-left:15px;padding-right:15px;}
+.MRlistBox li.MRlist_AD h3 a{font-size:15px;color:#1827E2;padding-bottom:5px;font-weight:normal;text-decoration:none;}
+.MRlistBox li.MRlist_AD h3 a:hover{text-decoration:underline;color:#1827E2;}
+.MRlistBox li.MRlist_AD .Lr_probox{background-image:url(https://ezprice.com.tw/images/icon_list_pro.gif);background-repeat:no-repeat;background-position:15px top;padding-left:55px;font-size:12px;color:#e8041b;padding-bottom:10px;}
+.MRlistBox li.MRlist_AD .Lr_disbox{background-image:url(https://ezprice.com.tw/images/icon_list_dis.gif);background-repeat:no-repeat;background-position:15px top;padding-left:65px;font-size:12px;color:#e8041b;padding-bottom:10px;}
+.MRlistBox li.MRlist_AD .Lr_watchbox{padding-left:15px;font-size:12px;color:#818181;}
+.MRlistBox li.MRlist_AD .MRl_tdMl{float:left;width:160px;}
+.MRlistBox li.MRlist_AD .Ml_paybox{padding-left:25px;}
+.MRlistBox li.MRlist_AD .Ml_paybox img{padding-right:5px;padding-bottom:5px;}
+.MRlistBox li.MRlist_AD .MRl_tdMr{float:left;width:100px;}
+.MRlistBox li.MRlist_AD .Mr_shipbox{text-align:center;}
+.MRlistBox li.MRlist_AD .Mr_shipbox img{padding-right:5px;padding-bottom:5px;}
+.MRlistBox li.MRlist_AD .MRl_tdRl{float:left;width:160px;font-family:"";font-size:20px;font-weight:bold;color:#f03f39;text-align:center;}
+.MRlistBox li.MRlist_AD .MRl_tdRr{float:left;width:100px;padding-left:20px;}
+.MRlistBox li.MRlist_AD .Rl_btnbox{background-image:url(https://ezprice.com.tw/images/btn_buyit.gif);background-repeat:no-repeat;background-position:left top;display:block;height:28px;width:87px;background-color:#1e1e1e;margin-bottom:5px;}
+.MRlistBox li.MRlist_AD .Rl_btnbox a{background-image:url(https://ezprice.com.tw/images/btn_buyit.gif);background-repeat:no-repeat;background-position:left top;display:block;height:28px;width:87px;background-color:#1e1e1e;}
+.MRlistBox li.MRlist_AD .Rl_btnadd{background-image:url(https://ezprice.com.tw/images/btn_shoplist_on.gif);background-repeat:no-repeat;background-position:left top;display:block;height:21px;width:86px;}
+.MRlistBox li.MRlist_AD .Rl_btnadd a{background-image:url(https://ezprice.com.tw/images/btn_shoplist_on.gif);background-repeat:no-repeat;background-position:left top;display:block;height:21px;width:86px;}
+.MRlistBox li.MRlist_AD .Rl_btnadd a:active{background-image:url(https://ezprice.com.tw/images/btn_shoplist_off.gif);background-repeat:no-repeat;background-position:left top;height:21px;width:86px;}
+.MRlistBox li.MRlist_adliz{display:block;padding-top:10px;border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:#dedede;background-image:url(../evt/images/BG_msg.gif);background-repeat:repeat;background-position:left top;padding-bottom:10px;}
+.MRlistBox li.MRlist_adliz:hover{background-color:#f3f3f3;}
+.ad_barbox{}
+.adlizbox{width:1030px;border:1px solid #ddbc8c;background-color:#FFFFFF;margin-left:8px;height:100px;position:relative;}
+.adlizbox .adlizbox_L{float:left;width:90px;}
+.adlizbox .adliztagbox{position:absolute;z-index:100;}
+.adlizbox .adlizpicbox{padding-top:10px;padding-left:10px;}
+.adlizbox .adlizbox_R{float:right;padding-top:5px;padding-right:10px;width:900px;position:relative;}
+.adlizbox h5{font-size:15px;color:#202020;display:block;padding-top:10px;line-height:18px;height:18px;overflow:hidden;margin-bottom:5px;font-weight:bold;white-space:nowrap;}
+.adlizbox h5 a{font-size:15px;color:#202020;font-weight:bold;white-space:nowrap;text-decoration:none;}
+.adlizbox h5 a:hover{text-decoration:underline;color:#202020;}
+.adlizbox span.adpriztxt{font-size:15px;color:#f54e4e;overflow:hidden;line-height:15px;}
+.adlizbox .adliz_annou{font-size:12px;color:#949494;overflow:hidden;position:absolute;display:block;height:15px;width:60px;left:840px;top:10px;z-index:100;}
+.adlizbox strong{font-size:18px;color:#f54e4e;overflow:hidden;font-family:Verdana,;font-weight:bold;line-height:18px;}
+.adlizbox a.adliz_buyit{font-size:12px;color:#0f66c0;text-decoration:underline;padding-left:15px;}
+.adlizbox a.adliz_buyit:hover{color:#ff8400;}
+.adlizbox .adliz_morebox{background-image:url(../images/icon_evthot.gif);background-repeat:no-repeat;background-position:left 2px;*background-position:left 10px!important;padding-left:35px;margin-top:10px;margin-right:0px;margin-bottom:0px;margin-left:0px;padding-right:0px;padding-bottom:0px;padding-top:0px;}
+.adlizbox .adlizmo{font-size:12px;color:#787878;text-decoration:underline;float:left;display:block;}
+.adlizbox .adlizmo a{font-size:12px;color:#787878;text-decoration:underline;}
+.adlizbox .adlizmo a:hover{color:#ff8400;text-decoration:underline;}
+.adlizbox .adlizmo_icon{font-size:12px;color:#787878;text-decoration:none;float:left;}
+.pdlistbox li.srlisbox_adliz{display:block;padding-top:10px;border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:#dedede;background-image:url(../evt/images/BG_msg.gif);background-repeat:repeat;background-position:left top;padding-bottom:10px;}
+li.srlisbox_adliz .adlizbox_sr{width:850px;border:1px solid #ddbc8c;background-color:#FFFFFF;margin-left:8px;height:100px;position:relative;}
+li.srlisbox_adliz .adlizbox_sr .adlizbox_L{float:left;width:90px;}
+li.srlisbox_adliz .adlizbox_sr .adliztagbox{position:absolute;z-index:100;}
+li.srlisbox_adliz .adlizbox_sr .adlizpicbox{padding-top:10px;padding-left:10px;}
+li.srlisbox_adliz .adlizbox_sr .adlizbox_R{float:right;padding-top:5px;padding-right:10px;width:720px;position:relative;}
+li.srlisbox_adliz .adlizbox_sr h5{font-size:15px;color:#202020;display:block;padding-top:10px;line-height:18px;height:18px;overflow:hidden;margin-bottom:5px;font-weight:bold;white-space:nowrap;}
+li.srlisbox_adliz .adlizbox_sr h5 a{font-size:15px;color:#202020;line-height:18px;height:18px;font-weight:bold;white-space:nowrap;}
+li.srlisbox_adliz .adlizbox_sr h5 a:hover{text-decoration:underline;color:#202020;}
+li.srlisbox_adliz .adlizbox_sr span.adpriztxt{font-size:15px;color:#f54e4e;overflow:hidden;line-height:15px;}
+li.srlisbox_adliz .adlizbox_sr .adliz_annou{font-size:12px;color:#949494;overflow:hidden;position:absolute;display:block;height:15px;width:60px;left:664px;top:10px;z-index:100;}
+li.srlisbox_adliz .adlizbox_sr strong{font-size:18px;color:#f54e4e;overflow:hidden;font-family:Verdana,;font-weight:bold;line-height:18px;}
+li.srlisbox_adliz .adlizbox_sr a.adliz_buyit{font-size:12px;color:#0f66c0;text-decoration:underline;padding-left:15px;}
+li.srlisbox_adliz .adlizbox_sr a.adliz_buyit:hover{color:#ff8400;}
+li.srlisbox_adliz .adlizbox_sr .adliz_morebox{background-image:url(../images/icon_evthot.gif);background-repeat:no-repeat;background-position:left 2px;*background-position:left 10px!important;padding-left:35px;margin-top:10px;margin-right:0px;margin-bottom:0px;margin-left:0px;padding-right:0px;padding-bottom:0px;padding-top:0px;}
+li.srlisbox_adliz .adlizbox_sr .adlizmo{font-size:12px;color:#787878;text-decoration:underline;float:left;display:block;}
+li.srlisbox_adliz .adlizbox_sr .adlizmo a{font-size:12px;color:#787878;text-decoration:underline;}
+li.srlisbox_adliz .adlizbox_sr .adlizmo a:hover{color:#ff8400;text-decoration:underline;}
+li.srlisbox_adliz .adlizbox_sr .adlizmo_icon{font-size:12px;color:#787878;text-decoration:none;float:left;}
+.mrch_optionsbox02{border-bottom-width:2px;border-bottom-style:solid;border-bottom-color:#404040;padding-bottom:10px;margin-bottom:10px;padding-top:10px;}
+.mrch_optionsbox02 .switchbox{background-color:#f4f4f4;border-top-width:2px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;border-top-style:solid;border-right-style:solid;border-bottom-style:solid;border-left-style:solid;border-top-color:#b7b7b7;border-right-color:#d1d3d4;border-bottom-color:#d1d3d4;border-left-color:#d1d3d4;margin-bottom:8px;}
+.mrch_optionsbox02 .switchbox a:link,
+.mrch_optionsbox02 .switchbox a:visited{font-size:12px;line-height:20px;color:#242424;display:block;text-decoration:none;padding-top:5px;padding-right:10px;padding-bottom:5px;padding-left:10px;}
+.mrch_optionsbox02 .switchbox a:hover,
+.mrch_optionsbox02 .switchbox a:active{font-size:12px;line-height:20px;color:#0f66c0;display:block;text-decoration:none;padding-top:5px;padding-right:10px;padding-bottom:5px;padding-left:10px;}
+.mrch_optionsbox02 .Moptionsbox{padding-left:10px;border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:#e1e2e3;height:30px;margin-bottom:10px;}
+.mrch_optionsbox02 .Moptionsbox_PLT{padding-left:10px;mini-height:20px;border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:#d1d3d4;}
+.mrch_optionsbox02 .Moptionsbox_sendbtn{mini-height:20px;padding-top:5px;text-align:center;}
+.mrch_optionsbox02 .tr_mrchlist_bar{}
+.mrch_optionsbox02 .tr_mrchlist{}
+.mrch_optionsbox02 .tr_mrchPlt{mini-height:20px;}
+.mrch_optionsbox02 .name{float:left;font-size:12px;color:#666666;background-image:url(../images/icon_list.gif);background-repeat:no-repeat;background-position:left center;line-height:20px;padding-left:5px;height:20px;width:105px;border-right-width:1px;border-right-style:solid;border-right-color:#e1e2e3;}
+.mrch_optionsbox02 .name_plt{float:left;font-size:12px;color:#666666;background-image:url(../images/icon_list.gif);background-repeat:no-repeat;background-position:left center;line-height:20px;padding-left:5px;height:20px;width:105px;border-right-width:1px;border-right-style:solid;border-right-color:#e1e2e3;}
+.mrch_optionsbox02 ul{}
+.mrch_optionsbox02 .optitembox{width:790px;float:right;}
+.mrch_optionsbox02 li.barline{float:left;line-height:20px;height:20px;width:155px;background-repeat:no-repeat;background-position:left center;margin-right:20px;}
+.mrch_optionsbox02 li.barline img{padding-top:3px;}
+.mrch_optionsbox02 li strong{float:left;font-size:12px;font-weight:bold;color:#333333;line-height:20px;height:20px;width:85px;}
+.mrch_optionsbox02 li.optitxt{float:left;font-size:12px;line-height:20px;color:#666666;height:30px;display:block;font-family:Verdana, sans-serif, "新細明體", Helvetica;padding-right:15px;}
+.mrch_optionsbox02 li.optitxt span{font-weight:bold;color:#ff8400;}
+.mrch_optionsbox02 .input_mrc{float:left;padding-top:3px;padding-right:5px;}
+.mrch_optionsbox02 li.opti_plf{float:left;padding-right:15px;padding-bottom:10px;}
+.mrch_optionsbox02 li.opti_More{float:right;font-size:12px;line-height:20px;color:#666666;display:block;width:65px;}
+.mrch_optionsbox02 li.opti_More a{float:right;font-size:12px;line-height:20px;color:#666666;text-decoration:none;display:block;width:65px;}
+.mrch_optionsbox02 li.opti_More a:hover{text-decoration:underline;}
+.mrch_optionsbox02 li.opti_More img{padding-bottom:2px;padding-left:5px;}
+.mrch_optionsbox02 .btn_option{display:block;height:22px;width:103px;background-image:url(../images/btn_do_option.gif);background-repeat:no-repeat;background-position:left top;}
+.mrch_optionsbox02 .btn_option a{display:block;height:22px;width:103px;background-image:url(../images/btn_do_option.gif);background-repeat:no-repeat;background-position:left top;}
+.mrch_optionsbox02 .btn_option a:hover{display:block;height:22px;width:103px;background-image:url(../images/btn_do_option.gif);background-repeat:no-repeat;background-position:left top;}
+.mrch_srdesbox_L{float:left;width:45%;}
+.mrch_optionsbox .Moptionsbox_sendbtn{mini-height:20px;padding-top:5px;text-align:center;}
+.mrch_optionsbox02 .mrch_options02_L_column{width:915px;}
+.mrch_optionsbox02 .mrch_options02_R_column{width:130px;}
+.mrch_optionsbox .mrch_options02_L_column{width:910px;}
+.mrch_optionsbox .mrch_options02_R_column{width:130px;}
+a.btn_buyit_Bred{background-image:url(/images/btn_buyit_Bred.gif);background-position:left top;display:block;height:41px;width:156px;}
+a.btn_buyit_Bred:hover{background-image:url(/images/btn_buyit_Bred_hover.gif);background-position:left top;display:block;height:41px;width:156px;}
+.addwantbox{padding-top:5px;}
+.addwantbox .want_on{font-size:12px;color:#818181;}
+.addwantbox .want_on a{font-size:12px;color:#818181;text-decoration:none;}
+.addwantbox .want_on a:hover{text-decoration:none;}
+.addwantbox .want_on img{padding-right:5px;}
+.addwantbox .want_off{font-size:12px;color:#e26572;text-decoration:underline;}
+.addwantbox .want_off a{font-size:12px;color:#e26572;text-decoration:underline;}
+.addwantbox .want_off a:hover{font-size:12px;color:#e53331;}
+.addwantbox .want_off img{padding-right:5px;}
+.mrc_M_column .introtxt02{font-size:12px;color:#666666;line-height:15px;height:60px;overflow:hidden;margin-top:5px;margin-right:10px;margin-bottom:5px;margin-left:10px;}
